@@ -1,0 +1,60 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: PizzaPie.Editor.Util.Assets
+  name: PizzaPie.Editor.Util.Assets
+  href: api/PizzaPie.Editor.Util.Assets.html
+  commentId: N:PizzaPie.Editor.Util.Assets
+  fullName: PizzaPie.Editor.Util.Assets
+  nameWithType: PizzaPie.Editor.Util.Assets
+- uid: PizzaPie.Editor.Util.Assets.AssetUtil
+  name: AssetUtil
+  href: api/PizzaPie.Editor.Util.Assets.AssetUtil.html
+  commentId: T:PizzaPie.Editor.Util.Assets.AssetUtil
+  fullName: PizzaPie.Editor.Util.Assets.AssetUtil
+  nameWithType: AssetUtil
+- uid: PizzaPie.Editor.Util.Assets.AssetUtil.FindAllAssetsOfType*
+  name: FindAllAssetsOfType
+  href: api/PizzaPie.Editor.Util.Assets.AssetUtil.html#PizzaPie_Editor_Util_Assets_AssetUtil_FindAllAssetsOfType_
+  commentId: Overload:PizzaPie.Editor.Util.Assets.AssetUtil.FindAllAssetsOfType
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Util.Assets.AssetUtil.FindAllAssetsOfType
+  nameWithType: AssetUtil.FindAllAssetsOfType
+- uid: PizzaPie.Editor.Util.Assets.AssetUtil.FindAllAssetsOfType``1
+  name: FindAllAssetsOfType<T>()
+  href: api/PizzaPie.Editor.Util.Assets.AssetUtil.html#PizzaPie_Editor_Util_Assets_AssetUtil_FindAllAssetsOfType__1
+  commentId: M:PizzaPie.Editor.Util.Assets.AssetUtil.FindAllAssetsOfType``1
+  name.vb: FindAllAssetsOfType(Of T)()
+  fullName: PizzaPie.Editor.Util.Assets.AssetUtil.FindAllAssetsOfType<T>()
+  fullName.vb: PizzaPie.Editor.Util.Assets.AssetUtil.FindAllAssetsOfType(Of T)()
+  nameWithType: AssetUtil.FindAllAssetsOfType<T>()
+  nameWithType.vb: AssetUtil.FindAllAssetsOfType(Of T)()
+- uid: PizzaPie.Editor.Util.Assets.AssetUtil.GetAllInstances*
+  name: GetAllInstances
+  href: api/PizzaPie.Editor.Util.Assets.AssetUtil.html#PizzaPie_Editor_Util_Assets_AssetUtil_GetAllInstances_
+  commentId: Overload:PizzaPie.Editor.Util.Assets.AssetUtil.GetAllInstances
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Util.Assets.AssetUtil.GetAllInstances
+  nameWithType: AssetUtil.GetAllInstances
+- uid: PizzaPie.Editor.Util.Assets.AssetUtil.GetAllInstances``1(System.String[])
+  name: GetAllInstances<T>(String[])
+  href: api/PizzaPie.Editor.Util.Assets.AssetUtil.html#PizzaPie_Editor_Util_Assets_AssetUtil_GetAllInstances__1_System_String___
+  commentId: M:PizzaPie.Editor.Util.Assets.AssetUtil.GetAllInstances``1(System.String[])
+  name.vb: GetAllInstances(Of T)(String())
+  fullName: PizzaPie.Editor.Util.Assets.AssetUtil.GetAllInstances<T>(System.String[])
+  fullName.vb: PizzaPie.Editor.Util.Assets.AssetUtil.GetAllInstances(Of T)(System.String())
+  nameWithType: AssetUtil.GetAllInstances<T>(String[])
+  nameWithType.vb: AssetUtil.GetAllInstances(Of T)(String())
+- uid: PizzaPie.Editor.Util.Assets.AssetUtil.RemoveSpecialCharacters(System.String)
+  name: RemoveSpecialCharacters(String)
+  href: api/PizzaPie.Editor.Util.Assets.AssetUtil.html#PizzaPie_Editor_Util_Assets_AssetUtil_RemoveSpecialCharacters_System_String_
+  commentId: M:PizzaPie.Editor.Util.Assets.AssetUtil.RemoveSpecialCharacters(System.String)
+  fullName: PizzaPie.Editor.Util.Assets.AssetUtil.RemoveSpecialCharacters(System.String)
+  nameWithType: AssetUtil.RemoveSpecialCharacters(String)
+- uid: PizzaPie.Editor.Util.Assets.AssetUtil.RemoveSpecialCharacters*
+  name: RemoveSpecialCharacters
+  href: api/PizzaPie.Editor.Util.Assets.AssetUtil.html#PizzaPie_Editor_Util_Assets_AssetUtil_RemoveSpecialCharacters_
+  commentId: Overload:PizzaPie.Editor.Util.Assets.AssetUtil.RemoveSpecialCharacters
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Util.Assets.AssetUtil.RemoveSpecialCharacters
+  nameWithType: AssetUtil.RemoveSpecialCharacters

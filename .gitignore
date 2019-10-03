@@ -22,6 +22,11 @@ RandomTools/obj/
 RandomTools/Assets/Private/
 
 *.meta
+
+#docfx
+/docfx_project/
+docfx_project/
+
 Builds/
 /Builds/
 
