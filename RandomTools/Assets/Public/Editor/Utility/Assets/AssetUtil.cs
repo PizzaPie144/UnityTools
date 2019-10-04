@@ -137,7 +137,7 @@ namespace PizzaPie.Editor.Util
         }
 
         /// <summary>
-        /// Remove all special characters 
+        /// Remove all special characters.
         /// </summary>
         /// <param name="str"></param>
         /// <returns></returns>
@@ -157,7 +157,7 @@ namespace PizzaPie.Editor.Util
         }
 
         /// <summary>
-        /// Parce namespace name out of regex match
+        /// Parce namespace name out of regex match.
         /// </summary>
         /// <param name="s"></param>
         /// <returns></returns>
