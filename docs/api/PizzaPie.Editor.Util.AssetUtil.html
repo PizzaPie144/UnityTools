@@ -68,12 +68,13 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil">
+            <article class="content wrap" id="_content" data-uid="PizzaPie.Editor.Util.AssetUtil">
   
   
-  <h1 id="PizzaPie_Editor_Util_Assets_AssetUtil" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil" class="text-break">Class AssetUtil
+  <h1 id="PizzaPie_Editor_Util_AssetUtil" data-uid="PizzaPie.Editor.Util.AssetUtil" class="text-break">Class AssetUtil
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Contains helper methods for handling Assets</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -104,9 +105,9 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="PizzaPie.Editor.Util.Assets.html">PizzaPie.Editor.Util.Assets</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PizzaPie.Editor.Util.html">PizzaPie.Editor.Util</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="PizzaPie_Editor_Util_Assets_AssetUtil_syntax">Syntax</h5>
+  <h5 id="PizzaPie_Editor_Util_AssetUtil_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class AssetUtil</code></pre>
   </div>
@@ -114,8 +115,8 @@
   </h3>
   
   
-  <a id="PizzaPie_Editor_Util_Assets_AssetUtil_CreateAsset_" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil.CreateAsset*"></a>
-  <h4 id="PizzaPie_Editor_Util_Assets_AssetUtil_CreateAsset__1_System_String_System_Boolean_System_String_" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil.CreateAsset``1(System.String,System.Boolean,System.String)">CreateAsset&lt;T&gt;(String, Boolean, String)</h4>
+  <a id="PizzaPie_Editor_Util_AssetUtil_CreateAsset_" data-uid="PizzaPie.Editor.Util.AssetUtil.CreateAsset*"></a>
+  <h4 id="PizzaPie_Editor_Util_AssetUtil_CreateAsset__1_System_String_System_Boolean_System_String_" data-uid="PizzaPie.Editor.Util.AssetUtil.CreateAsset``1(System.String,System.Boolean,System.String)">CreateAsset&lt;T&gt;(String, Boolean, String)</h4>
   <div class="markdown level1 summary"><p>Create Asset of type T.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -181,14 +182,15 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>Derives from ScriptableObject</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="PizzaPie_Editor_Util_Assets_AssetUtil_CreateFolder_" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil.CreateFolder*"></a>
-  <h4 id="PizzaPie_Editor_Util_Assets_AssetUtil_CreateFolder_System_String_" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil.CreateFolder(System.String)">CreateFolder(String)</h4>
+  <a id="PizzaPie_Editor_Util_AssetUtil_CreateFolder_" data-uid="PizzaPie.Editor.Util.AssetUtil.CreateFolder*"></a>
+  <h4 id="PizzaPie_Editor_Util_AssetUtil_CreateFolder_System_String_" data-uid="PizzaPie.Editor.Util.AssetUtil.CreateFolder(System.String)">CreateFolder(String)</h4>
   <div class="markdown level1 summary"><p>Create folder/s based on path if they do not exist.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -231,8 +233,8 @@
   </table>
   
   
-  <a id="PizzaPie_Editor_Util_Assets_AssetUtil_FindAllAssetsOfType_" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil.FindAllAssetsOfType*"></a>
-  <h4 id="PizzaPie_Editor_Util_Assets_AssetUtil_FindAllAssetsOfType__1" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil.FindAllAssetsOfType``1">FindAllAssetsOfType&lt;T&gt;()</h4>
+  <a id="PizzaPie_Editor_Util_AssetUtil_FindAllAssetsOfType_" data-uid="PizzaPie.Editor.Util.AssetUtil.FindAllAssetsOfType*"></a>
+  <h4 id="PizzaPie_Editor_Util_AssetUtil_FindAllAssetsOfType__1" data-uid="PizzaPie.Editor.Util.AssetUtil.FindAllAssetsOfType``1">FindAllAssetsOfType&lt;T&gt;()</h4>
   <div class="markdown level1 summary"><p>Return all instances of assets of type T, use only if GetAllInstances doesn't work.
 Does not work if type is contained in dll.</p>
 </div>
@@ -253,7 +255,8 @@ Does not work if type is contained in dll.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
-        <td></td>
+        <td><p>List of instances of assets.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -274,8 +277,8 @@ Does not work if type is contained in dll.</p>
   </table>
   
   
-  <a id="PizzaPie_Editor_Util_Assets_AssetUtil_GetAllInstances_" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil.GetAllInstances*"></a>
-  <h4 id="PizzaPie_Editor_Util_Assets_AssetUtil_GetAllInstances__1_System_String___" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil.GetAllInstances``1(System.String[])">GetAllInstances&lt;T&gt;(String[])</h4>
+  <a id="PizzaPie_Editor_Util_AssetUtil_GetAllInstances_" data-uid="PizzaPie.Editor.Util.AssetUtil.GetAllInstances*"></a>
+  <h4 id="PizzaPie_Editor_Util_AssetUtil_GetAllInstances__1_System_String___" data-uid="PizzaPie.Editor.Util.AssetUtil.GetAllInstances``1(System.String[])">GetAllInstances&lt;T&gt;(String[])</h4>
   <div class="markdown level1 summary"><p>Returns all instances of assets of type T.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -333,8 +336,8 @@ Does not work if type is contained in dll.</p>
   </table>
   
   
-  <a id="PizzaPie_Editor_Util_Assets_AssetUtil_RemoveSpecialCharacters_" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil.RemoveSpecialCharacters*"></a>
-  <h4 id="PizzaPie_Editor_Util_Assets_AssetUtil_RemoveSpecialCharacters_System_String_" data-uid="PizzaPie.Editor.Util.Assets.AssetUtil.RemoveSpecialCharacters(System.String)">RemoveSpecialCharacters(String)</h4>
+  <a id="PizzaPie_Editor_Util_AssetUtil_RemoveSpecialCharacters_" data-uid="PizzaPie.Editor.Util.AssetUtil.RemoveSpecialCharacters*"></a>
+  <h4 id="PizzaPie_Editor_Util_AssetUtil_RemoveSpecialCharacters_System_String_" data-uid="PizzaPie.Editor.Util.AssetUtil.RemoveSpecialCharacters(System.String)">RemoveSpecialCharacters(String)</h4>
   <div class="markdown level1 summary"><p>Remove all special characters</p>
 </div>
   <div class="markdown level1 conceptual"></div>
