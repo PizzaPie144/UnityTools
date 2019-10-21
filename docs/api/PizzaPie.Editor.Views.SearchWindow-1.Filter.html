@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace PizzaPie.Editor.Util
+    <title>Interface SearchWindow&lt;T&gt;.Filter
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace PizzaPie.Editor.Util
+    <meta name="title" content="Interface SearchWindow&lt;T&gt;.Filter
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -68,22 +68,69 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="PizzaPie.Editor.Util">
+            <article class="content wrap" id="_content" data-uid="PizzaPie.Editor.Views.SearchWindow`1.Filter">
   
-  <h1 id="PizzaPie_Editor_Util" data-uid="PizzaPie.Editor.Util" class="text-break">Namespace PizzaPie.Editor.Util
+  
+  <h1 id="PizzaPie_Editor_Views_SearchWindow_1_Filter" data-uid="PizzaPie.Editor.Views.SearchWindow`1.Filter" class="text-break">Interface SearchWindow&lt;T&gt;.Filter
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Interface to define how search query validates against each item.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="PizzaPie.Editor.Views.html">PizzaPie.Editor.Views</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="PizzaPie_Editor_Views_SearchWindow_1_Filter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface Filter</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="PizzaPie.Editor.Util.Assets.html">Assets</a></h4>
-      <section><p>Contains helper methods for handling Assets</p>
-</section>
-      <h4><a class="xref" href="PizzaPie.Editor.Util.SerializedProperties.html">SerializedProperties</a></h4>
-      <section><p>Utility class for handling SerializedProperties.
-Array refers to serializable (by Unity's Serializer) collections (List, Array).</p>
-</section>
+  
+  
+  <a id="PizzaPie_Editor_Views_SearchWindow_1_Filter_IsItemValid_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.Filter.IsItemValid*"></a>
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_Filter_IsItemValid__0_System_String_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.Filter.IsItemValid(`0,System.String)">IsItemValid(T, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsItemValid(T item, string query)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">query</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

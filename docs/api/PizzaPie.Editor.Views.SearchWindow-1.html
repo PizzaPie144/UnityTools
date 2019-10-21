@@ -1,0 +1,569 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SearchWindow&lt;T&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SearchWindow&lt;T&gt;
+   ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="PizzaPie.Editor.Views.SearchWindow`1">
+  
+  
+  <h1 id="PizzaPie_Editor_Views_SearchWindow_1" data-uid="PizzaPie.Editor.Views.SearchWindow`1" class="text-break">Class SearchWindow&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Base class for SearchWindow PopupWindow.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SearchWindow&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="PizzaPie.Editor.Views.MultipleSelectionSearchWindow-1.html">MultipleSelectionSearchWindow&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="PizzaPie.Editor.Views.SingleSelectionSearchWindow-1.html">SingleSelectionSearchWindow&lt;T&gt;</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PizzaPie.Editor.Views.html">PizzaPie.Editor.Views</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="PizzaPie_Editor_Views_SearchWindow_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class SearchWindow&lt;T&gt; : PopupWindowContent where T : class</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="PizzaPie_Editor_Views_SearchWindow_1__ctor_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.#ctor*"></a>
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1__ctor__0___PizzaPie_Editor_Views_SearchWindow__0__Filter_PizzaPie_Editor_Views_CellView__0__System_Collections_Generic_IComparer__0__PizzaPie_Editor_Views_SelectionType_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.#ctor(`0[],PizzaPie.Editor.Views.SearchWindow{`0}.Filter,PizzaPie.Editor.Views.CellView{`0},System.Collections.Generic.IComparer{`0},PizzaPie.Editor.Views.SelectionType)">SearchWindow(T[], SearchWindow&lt;T&gt;.Filter, CellView&lt;T&gt;, IComparer&lt;T&gt;, SelectionType)</h4>
+  <div class="markdown level1 summary"><p>Creates SearchWindow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SearchWindow(T[] sourceItems, SearchWindow&lt;T&gt;.Filter filter, CellView&lt;T&gt; cellView, IComparer&lt;T&gt; comparer, SelectionType selectionType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">sourceItems</span></td>
+        <td><p>Items to search from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PizzaPie.Editor.Views.SearchWindow-1.Filter.html">SearchWindow.Filter</a>&lt;&gt;</td>
+        <td><span class="parametername">filter</span></td>
+        <td><p>Filter to validate search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PizzaPie.Editor.Views.CellView-1.html">CellView</a>&lt;T&gt;</td>
+        <td><span class="parametername">cellView</span></td>
+        <td><p>CellView used by results ListView.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;T&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>Comparer used to sort results ListView Cells.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PizzaPie.Editor.Views.SelectionType.html">SelectionType</a></td>
+        <td><span class="parametername">selectionType</span></td>
+        <td><p>Type of selection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_cellView" data-uid="PizzaPie.Editor.Views.SearchWindow`1.cellView">cellView</h4>
+  <div class="markdown level1 summary"><p>CellView used by ListView.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CellView&lt;T&gt; cellView</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PizzaPie.Editor.Views.CellView-1.html">CellView</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_listView" data-uid="PizzaPie.Editor.Views.SearchWindow`1.listView">listView</h4>
+  <div class="markdown level1 summary"><p>ListView that presents results.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ListView&lt;T&gt; listView</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PizzaPie.Editor.Views.ListView-1.html">ListView</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_listViewHeightOffset" data-uid="PizzaPie.Editor.Views.SearchWindow`1.listViewHeightOffset">listViewHeightOffset</h4>
+  <div class="markdown level1 summary"><p>Height differense from the top of the SearchWindow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float listViewHeightOffset</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_sourceItems" data-uid="PizzaPie.Editor.Views.SearchWindow`1.sourceItems">sourceItems</h4>
+  <div class="markdown level1 summary"><p>Items to search on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected T[] sourceItems</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="PizzaPie_Editor_Views_SearchWindow_1_OnCellClickedHandler_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.OnCellClickedHandler*"></a>
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_OnCellClickedHandler_System_Object_PizzaPie_Editor_Views_ListView__0__OnCellClickedEventArgs_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.OnCellClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnCellClickedEventArgs)">OnCellClickedHandler(Object, ListView&lt;T&gt;.OnCellClickedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Override to handle cell clicked event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnCellClickedHandler(object sender, ListView&lt;T&gt;.OnCellClickedEventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PizzaPie.Editor.Views.ListView-1.OnCellClickedEventArgs.html">ListView.OnCellClickedEventArgs</a>&lt;&gt;</td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PizzaPie_Editor_Views_SearchWindow_1_OnCellDoubleClickedHandler_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.OnCellDoubleClickedHandler*"></a>
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_OnCellDoubleClickedHandler_System_Object_PizzaPie_Editor_Views_ListView__0__OnSelectionEventArgs_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.OnCellDoubleClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnSelectionEventArgs)">OnCellDoubleClickedHandler(Object, ListView&lt;T&gt;.OnSelectionEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Override to handler Cell Double Clicked event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnCellDoubleClickedHandler(object sender, ListView&lt;T&gt;.OnSelectionEventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PizzaPie.Editor.Views.ListView-1.OnSelectionEventArgs.html">ListView.OnSelectionEventArgs</a>&lt;&gt;</td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PizzaPie_Editor_Views_SearchWindow_1_OnGUI_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.OnGUI*"></a>
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_OnGUI_Rect_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.OnGUI(Rect)">OnGUI(Rect)</h4>
+  <div class="markdown level1 summary"><p>Unity callback override for PopupWindowContext, do not call directly use PopupWindow.Show().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnGUI(Rect rect)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">rect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PizzaPie_Editor_Views_SearchWindow_1_OnSelectionFinished_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.OnSelectionFinished*"></a>
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_OnSelectionFinished_PizzaPie_Editor_Views_ListView__0__OnSelectionEventArgs_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.OnSelectionFinished(PizzaPie.Editor.Views.ListView{`0}.OnSelectionEventArgs)">OnSelectionFinished(ListView&lt;T&gt;.OnSelectionEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fire Selection Finished event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnSelectionFinished(ListView&lt;T&gt;.OnSelectionEventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PizzaPie.Editor.Views.ListView-1.OnSelectionEventArgs.html">ListView.OnSelectionEventArgs</a>&lt;&gt;</td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PizzaPie_Editor_Views_SearchWindow_1_SetPreselectedItem_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItem*"></a>
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_SetPreselectedItem__0_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItem(`0)">SetPreselectedItem(T)</h4>
+  <div class="markdown level1 summary"><p>Set item as selected, Cell clicked event will not fire.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPreselectedItem(T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>Item to select.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PizzaPie_Editor_Views_SearchWindow_1_SetPreselectedItems_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItems*"></a>
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_SetPreselectedItems_System_Collections_Generic_List__0__" data-uid="PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItems(System.Collections.Generic.List{`0})">SetPreselectedItems(List&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Set preselected items, Cell Clicked event will not fire.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPreselectedItems(List&lt;T&gt; selectedItems)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
+        <td><span class="parametername">selectedItems</span></td>
+        <td><p>Items to select.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PizzaPie_Editor_Views_SearchWindow_1_UnselectAll_" data-uid="PizzaPie.Editor.Views.SearchWindow`1.UnselectAll*"></a>
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_UnselectAll" data-uid="PizzaPie.Editor.Views.SearchWindow`1.UnselectAll">UnselectAll()</h4>
+  <div class="markdown level1 summary"><p>Unselect all selected cells, Cell Clicked event will not fire.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnselectAll()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_CellClicked" data-uid="PizzaPie.Editor.Views.SearchWindow`1.CellClicked">CellClicked</h4>
+  <div class="markdown level1 summary"><p>On Cell Clicked event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;ListView&lt;T&gt;.OnCellClickedEventArgs&gt; CellClicked</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="PizzaPie.Editor.Views.ListView-1.OnCellClickedEventArgs.html">ListView.OnCellClickedEventArgs</a>&lt;&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_CellDoubleClicked" data-uid="PizzaPie.Editor.Views.SearchWindow`1.CellDoubleClicked">CellDoubleClicked</h4>
+  <div class="markdown level1 summary"><p>On Cell Double Clicked event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;ListView&lt;T&gt;.OnSelectionEventArgs&gt; CellDoubleClicked</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="PizzaPie.Editor.Views.ListView-1.OnSelectionEventArgs.html">ListView.OnSelectionEventArgs</a>&lt;&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="PizzaPie_Editor_Views_SearchWindow_1_SelectionFinished" data-uid="PizzaPie.Editor.Views.SearchWindow`1.SelectionFinished">SelectionFinished</h4>
+  <div class="markdown level1 summary"><p>Subscribe to get the Selection Finished event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;ListView&lt;T&gt;.OnSelectionEventArgs&gt; SelectionFinished</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="PizzaPie.Editor.Views.ListView-1.OnSelectionEventArgs.html">ListView.OnSelectionEventArgs</a>&lt;&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

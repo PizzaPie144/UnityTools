@@ -1,89 +1,1087 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject
+  name: PizzaPie.Editor.Example.MultiSelectGameObject
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.html
+  commentId: N:PizzaPie.Editor.Example.MultiSelectGameObject
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject
+  nameWithType: PizzaPie.Editor.Example.MultiSelectGameObject
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView
+  name: GameObjectCellView
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html
+  commentId: T:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView
+  nameWithType: GameObjectCellView
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.#ctor(Vector2)
+  name: GameObjectCellView(Vector2)
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectCellView__ctor_Vector2_
+  commentId: M:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.#ctor(Vector2)
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.GameObjectCellView(Vector2)
+  nameWithType: GameObjectCellView.GameObjectCellView(Vector2)
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.#ctor*
+  name: GameObjectCellView
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectCellView__ctor_
+  commentId: Overload:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.#ctor
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.GameObjectCellView
+  nameWithType: GameObjectCellView.GameObjectCellView
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.Clone
+  name: Clone()
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectCellView_Clone
+  commentId: M:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.Clone
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.Clone()
+  nameWithType: GameObjectCellView.Clone()
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.Clone*
+  name: Clone
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectCellView_Clone_
+  commentId: Overload:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.Clone
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.Clone
+  nameWithType: GameObjectCellView.Clone
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnClick(System.Boolean)
+  name: OnClick(Boolean)
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectCellView_OnClick_System_Boolean_
+  commentId: M:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnClick(System.Boolean)
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnClick(System.Boolean)
+  nameWithType: GameObjectCellView.OnClick(Boolean)
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnClick*
+  name: OnClick
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectCellView_OnClick_
+  commentId: Overload:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnClick
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnClick
+  nameWithType: GameObjectCellView.OnClick
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnDoubleClick(System.Boolean)
+  name: OnDoubleClick(Boolean)
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectCellView_OnDoubleClick_System_Boolean_
+  commentId: M:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnDoubleClick(System.Boolean)
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnDoubleClick(System.Boolean)
+  nameWithType: GameObjectCellView.OnDoubleClick(Boolean)
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnDoubleClick*
+  name: OnDoubleClick
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectCellView_OnDoubleClick_
+  commentId: Overload:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnDoubleClick
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnDoubleClick
+  nameWithType: GameObjectCellView.OnDoubleClick
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnGUIInternal(GameObject,Rect,System.Boolean,Event)
+  name: OnGUIInternal(GameObject, Rect, Boolean, Event)
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectCellView_OnGUIInternal_GameObject_Rect_System_Boolean_Event_
+  commentId: M:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnGUIInternal(GameObject,Rect,System.Boolean,Event)
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnGUIInternal(GameObject, Rect, System.Boolean, Event)
+  nameWithType: GameObjectCellView.OnGUIInternal(GameObject, Rect, Boolean, Event)
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnGUIInternal*
+  name: OnGUIInternal
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectCellView_OnGUIInternal_
+  commentId: Overload:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnGUIInternal
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.OnGUIInternal
+  nameWithType: GameObjectCellView.OnGUIInternal
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer
+  name: GameObjectNameCompararer
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer.html
+  commentId: T:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer
+  nameWithType: GameObjectNameCompararer
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer.Compare(GameObject,GameObject)
+  name: Compare(GameObject, GameObject)
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectNameCompararer_Compare_GameObject_GameObject_
+  commentId: M:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer.Compare(GameObject,GameObject)
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer.Compare(GameObject, GameObject)
+  nameWithType: GameObjectNameCompararer.Compare(GameObject, GameObject)
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer.Compare*
+  name: Compare
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectNameCompararer_Compare_
+  commentId: Overload:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer.Compare
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer.Compare
+  nameWithType: GameObjectNameCompararer.Compare
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter
+  name: GameObjectNameFilter
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter.html
+  commentId: T:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter
+  nameWithType: GameObjectNameFilter
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter.IsItemValid(GameObject,System.String)
+  name: IsItemValid(GameObject, String)
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectNameFilter_IsItemValid_GameObject_System_String_
+  commentId: M:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter.IsItemValid(GameObject,System.String)
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter.IsItemValid(GameObject, System.String)
+  nameWithType: GameObjectNameFilter.IsItemValid(GameObject, String)
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter.IsItemValid*
+  name: IsItemValid
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter.html#PizzaPie_Editor_Example_MultiSelectGameObject_GameObjectNameFilter_IsItemValid_
+  commentId: Overload:PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter.IsItemValid
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter.IsItemValid
+  nameWithType: GameObjectNameFilter.IsItemValid
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector
+  name: MultiSelectGameObjectMonobehaviourInspector
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector.html
+  commentId: T:PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector
+  nameWithType: MultiSelectGameObjectMonobehaviourInspector
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector.html#PizzaPie_Editor_Example_MultiSelectGameObject_MultiSelectGameObjectMonobehaviourInspector_OnInspectorGUI
+  commentId: M:PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector.OnInspectorGUI
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector.OnInspectorGUI()
+  nameWithType: MultiSelectGameObjectMonobehaviourInspector.OnInspectorGUI()
+- uid: PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector.html#PizzaPie_Editor_Example_MultiSelectGameObject_MultiSelectGameObjectMonobehaviourInspector_OnInspectorGUI_
+  commentId: Overload:PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector.OnInspectorGUI
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector.OnInspectorGUI
+  nameWithType: MultiSelectGameObjectMonobehaviourInspector.OnInspectorGUI
 - uid: PizzaPie.Editor.Util
   name: PizzaPie.Editor.Util
   href: api/PizzaPie.Editor.Util.html
   commentId: N:PizzaPie.Editor.Util
   fullName: PizzaPie.Editor.Util
   nameWithType: PizzaPie.Editor.Util
-- uid: PizzaPie.Editor.Util.AssetUtil
-  name: AssetUtil
-  href: api/PizzaPie.Editor.Util.AssetUtil.html
-  commentId: T:PizzaPie.Editor.Util.AssetUtil
-  fullName: PizzaPie.Editor.Util.AssetUtil
-  nameWithType: AssetUtil
-- uid: PizzaPie.Editor.Util.AssetUtil.CreateAsset*
+- uid: PizzaPie.Editor.Util.Assets
+  name: Assets
+  href: api/PizzaPie.Editor.Util.Assets.html
+  commentId: T:PizzaPie.Editor.Util.Assets
+  fullName: PizzaPie.Editor.Util.Assets
+  nameWithType: Assets
+- uid: PizzaPie.Editor.Util.Assets.CreateAsset*
   name: CreateAsset
-  href: api/PizzaPie.Editor.Util.AssetUtil.html#PizzaPie_Editor_Util_AssetUtil_CreateAsset_
-  commentId: Overload:PizzaPie.Editor.Util.AssetUtil.CreateAsset
+  href: api/PizzaPie.Editor.Util.Assets.html#PizzaPie_Editor_Util_Assets_CreateAsset_
+  commentId: Overload:PizzaPie.Editor.Util.Assets.CreateAsset
   isSpec: "True"
-  fullName: PizzaPie.Editor.Util.AssetUtil.CreateAsset
-  nameWithType: AssetUtil.CreateAsset
-- uid: PizzaPie.Editor.Util.AssetUtil.CreateAsset``1(System.String,System.Boolean,System.String)
+  fullName: PizzaPie.Editor.Util.Assets.CreateAsset
+  nameWithType: Assets.CreateAsset
+- uid: PizzaPie.Editor.Util.Assets.CreateAsset``1(System.String,System.Boolean,System.String)
   name: CreateAsset<T>(String, Boolean, String)
-  href: api/PizzaPie.Editor.Util.AssetUtil.html#PizzaPie_Editor_Util_AssetUtil_CreateAsset__1_System_String_System_Boolean_System_String_
-  commentId: M:PizzaPie.Editor.Util.AssetUtil.CreateAsset``1(System.String,System.Boolean,System.String)
+  href: api/PizzaPie.Editor.Util.Assets.html#PizzaPie_Editor_Util_Assets_CreateAsset__1_System_String_System_Boolean_System_String_
+  commentId: M:PizzaPie.Editor.Util.Assets.CreateAsset``1(System.String,System.Boolean,System.String)
   name.vb: CreateAsset(Of T)(String, Boolean, String)
-  fullName: PizzaPie.Editor.Util.AssetUtil.CreateAsset<T>(System.String, System.Boolean, System.String)
-  fullName.vb: PizzaPie.Editor.Util.AssetUtil.CreateAsset(Of T)(System.String, System.Boolean, System.String)
-  nameWithType: AssetUtil.CreateAsset<T>(String, Boolean, String)
-  nameWithType.vb: AssetUtil.CreateAsset(Of T)(String, Boolean, String)
-- uid: PizzaPie.Editor.Util.AssetUtil.CreateFolder(System.String)
+  fullName: PizzaPie.Editor.Util.Assets.CreateAsset<T>(System.String, System.Boolean, System.String)
+  fullName.vb: PizzaPie.Editor.Util.Assets.CreateAsset(Of T)(System.String, System.Boolean, System.String)
+  nameWithType: Assets.CreateAsset<T>(String, Boolean, String)
+  nameWithType.vb: Assets.CreateAsset(Of T)(String, Boolean, String)
+- uid: PizzaPie.Editor.Util.Assets.CreateFolder(System.String)
   name: CreateFolder(String)
-  href: api/PizzaPie.Editor.Util.AssetUtil.html#PizzaPie_Editor_Util_AssetUtil_CreateFolder_System_String_
-  commentId: M:PizzaPie.Editor.Util.AssetUtil.CreateFolder(System.String)
-  fullName: PizzaPie.Editor.Util.AssetUtil.CreateFolder(System.String)
-  nameWithType: AssetUtil.CreateFolder(String)
-- uid: PizzaPie.Editor.Util.AssetUtil.CreateFolder*
+  href: api/PizzaPie.Editor.Util.Assets.html#PizzaPie_Editor_Util_Assets_CreateFolder_System_String_
+  commentId: M:PizzaPie.Editor.Util.Assets.CreateFolder(System.String)
+  fullName: PizzaPie.Editor.Util.Assets.CreateFolder(System.String)
+  nameWithType: Assets.CreateFolder(String)
+- uid: PizzaPie.Editor.Util.Assets.CreateFolder*
   name: CreateFolder
-  href: api/PizzaPie.Editor.Util.AssetUtil.html#PizzaPie_Editor_Util_AssetUtil_CreateFolder_
-  commentId: Overload:PizzaPie.Editor.Util.AssetUtil.CreateFolder
+  href: api/PizzaPie.Editor.Util.Assets.html#PizzaPie_Editor_Util_Assets_CreateFolder_
+  commentId: Overload:PizzaPie.Editor.Util.Assets.CreateFolder
   isSpec: "True"
-  fullName: PizzaPie.Editor.Util.AssetUtil.CreateFolder
-  nameWithType: AssetUtil.CreateFolder
-- uid: PizzaPie.Editor.Util.AssetUtil.FindAllAssetsOfType*
+  fullName: PizzaPie.Editor.Util.Assets.CreateFolder
+  nameWithType: Assets.CreateFolder
+- uid: PizzaPie.Editor.Util.Assets.FindAllAssetsOfType*
   name: FindAllAssetsOfType
-  href: api/PizzaPie.Editor.Util.AssetUtil.html#PizzaPie_Editor_Util_AssetUtil_FindAllAssetsOfType_
-  commentId: Overload:PizzaPie.Editor.Util.AssetUtil.FindAllAssetsOfType
+  href: api/PizzaPie.Editor.Util.Assets.html#PizzaPie_Editor_Util_Assets_FindAllAssetsOfType_
+  commentId: Overload:PizzaPie.Editor.Util.Assets.FindAllAssetsOfType
   isSpec: "True"
-  fullName: PizzaPie.Editor.Util.AssetUtil.FindAllAssetsOfType
-  nameWithType: AssetUtil.FindAllAssetsOfType
-- uid: PizzaPie.Editor.Util.AssetUtil.FindAllAssetsOfType``1
+  fullName: PizzaPie.Editor.Util.Assets.FindAllAssetsOfType
+  nameWithType: Assets.FindAllAssetsOfType
+- uid: PizzaPie.Editor.Util.Assets.FindAllAssetsOfType``1
   name: FindAllAssetsOfType<T>()
-  href: api/PizzaPie.Editor.Util.AssetUtil.html#PizzaPie_Editor_Util_AssetUtil_FindAllAssetsOfType__1
-  commentId: M:PizzaPie.Editor.Util.AssetUtil.FindAllAssetsOfType``1
+  href: api/PizzaPie.Editor.Util.Assets.html#PizzaPie_Editor_Util_Assets_FindAllAssetsOfType__1
+  commentId: M:PizzaPie.Editor.Util.Assets.FindAllAssetsOfType``1
   name.vb: FindAllAssetsOfType(Of T)()
-  fullName: PizzaPie.Editor.Util.AssetUtil.FindAllAssetsOfType<T>()
-  fullName.vb: PizzaPie.Editor.Util.AssetUtil.FindAllAssetsOfType(Of T)()
-  nameWithType: AssetUtil.FindAllAssetsOfType<T>()
-  nameWithType.vb: AssetUtil.FindAllAssetsOfType(Of T)()
-- uid: PizzaPie.Editor.Util.AssetUtil.GetAllInstances*
+  fullName: PizzaPie.Editor.Util.Assets.FindAllAssetsOfType<T>()
+  fullName.vb: PizzaPie.Editor.Util.Assets.FindAllAssetsOfType(Of T)()
+  nameWithType: Assets.FindAllAssetsOfType<T>()
+  nameWithType.vb: Assets.FindAllAssetsOfType(Of T)()
+- uid: PizzaPie.Editor.Util.Assets.GetAllInstances*
   name: GetAllInstances
-  href: api/PizzaPie.Editor.Util.AssetUtil.html#PizzaPie_Editor_Util_AssetUtil_GetAllInstances_
-  commentId: Overload:PizzaPie.Editor.Util.AssetUtil.GetAllInstances
+  href: api/PizzaPie.Editor.Util.Assets.html#PizzaPie_Editor_Util_Assets_GetAllInstances_
+  commentId: Overload:PizzaPie.Editor.Util.Assets.GetAllInstances
   isSpec: "True"
-  fullName: PizzaPie.Editor.Util.AssetUtil.GetAllInstances
-  nameWithType: AssetUtil.GetAllInstances
-- uid: PizzaPie.Editor.Util.AssetUtil.GetAllInstances``1(System.String[])
+  fullName: PizzaPie.Editor.Util.Assets.GetAllInstances
+  nameWithType: Assets.GetAllInstances
+- uid: PizzaPie.Editor.Util.Assets.GetAllInstances``1(System.String[])
   name: GetAllInstances<T>(String[])
-  href: api/PizzaPie.Editor.Util.AssetUtil.html#PizzaPie_Editor_Util_AssetUtil_GetAllInstances__1_System_String___
-  commentId: M:PizzaPie.Editor.Util.AssetUtil.GetAllInstances``1(System.String[])
+  href: api/PizzaPie.Editor.Util.Assets.html#PizzaPie_Editor_Util_Assets_GetAllInstances__1_System_String___
+  commentId: M:PizzaPie.Editor.Util.Assets.GetAllInstances``1(System.String[])
   name.vb: GetAllInstances(Of T)(String())
-  fullName: PizzaPie.Editor.Util.AssetUtil.GetAllInstances<T>(System.String[])
-  fullName.vb: PizzaPie.Editor.Util.AssetUtil.GetAllInstances(Of T)(System.String())
-  nameWithType: AssetUtil.GetAllInstances<T>(String[])
-  nameWithType.vb: AssetUtil.GetAllInstances(Of T)(String())
-- uid: PizzaPie.Editor.Util.AssetUtil.RemoveSpecialCharacters(System.String)
+  fullName: PizzaPie.Editor.Util.Assets.GetAllInstances<T>(System.String[])
+  fullName.vb: PizzaPie.Editor.Util.Assets.GetAllInstances(Of T)(System.String())
+  nameWithType: Assets.GetAllInstances<T>(String[])
+  nameWithType.vb: Assets.GetAllInstances(Of T)(String())
+- uid: PizzaPie.Editor.Util.Assets.RemoveSpecialCharacters(System.String)
   name: RemoveSpecialCharacters(String)
-  href: api/PizzaPie.Editor.Util.AssetUtil.html#PizzaPie_Editor_Util_AssetUtil_RemoveSpecialCharacters_System_String_
-  commentId: M:PizzaPie.Editor.Util.AssetUtil.RemoveSpecialCharacters(System.String)
-  fullName: PizzaPie.Editor.Util.AssetUtil.RemoveSpecialCharacters(System.String)
-  nameWithType: AssetUtil.RemoveSpecialCharacters(String)
-- uid: PizzaPie.Editor.Util.AssetUtil.RemoveSpecialCharacters*
+  href: api/PizzaPie.Editor.Util.Assets.html#PizzaPie_Editor_Util_Assets_RemoveSpecialCharacters_System_String_
+  commentId: M:PizzaPie.Editor.Util.Assets.RemoveSpecialCharacters(System.String)
+  fullName: PizzaPie.Editor.Util.Assets.RemoveSpecialCharacters(System.String)
+  nameWithType: Assets.RemoveSpecialCharacters(String)
+- uid: PizzaPie.Editor.Util.Assets.RemoveSpecialCharacters*
   name: RemoveSpecialCharacters
-  href: api/PizzaPie.Editor.Util.AssetUtil.html#PizzaPie_Editor_Util_AssetUtil_RemoveSpecialCharacters_
-  commentId: Overload:PizzaPie.Editor.Util.AssetUtil.RemoveSpecialCharacters
+  href: api/PizzaPie.Editor.Util.Assets.html#PizzaPie_Editor_Util_Assets_RemoveSpecialCharacters_
+  commentId: Overload:PizzaPie.Editor.Util.Assets.RemoveSpecialCharacters
   isSpec: "True"
-  fullName: PizzaPie.Editor.Util.AssetUtil.RemoveSpecialCharacters
-  nameWithType: AssetUtil.RemoveSpecialCharacters
+  fullName: PizzaPie.Editor.Util.Assets.RemoveSpecialCharacters
+  nameWithType: Assets.RemoveSpecialCharacters
+- uid: PizzaPie.Editor.Util.SerializedProperties
+  name: SerializedProperties
+  href: api/PizzaPie.Editor.Util.SerializedProperties.html
+  commentId: T:PizzaPie.Editor.Util.SerializedProperties
+  fullName: PizzaPie.Editor.Util.SerializedProperties
+  nameWithType: SerializedProperties
+- uid: PizzaPie.Editor.Util.SerializedProperties.AddArrayItem(UnityEngine.Object,SerializedProperty)
+  name: AddArrayItem(UnityEngine.Object, SerializedProperty)
+  href: api/PizzaPie.Editor.Util.SerializedProperties.html#PizzaPie_Editor_Util_SerializedProperties_AddArrayItem_UnityEngine_Object_SerializedProperty_
+  commentId: M:PizzaPie.Editor.Util.SerializedProperties.AddArrayItem(UnityEngine.Object,SerializedProperty)
+  fullName: PizzaPie.Editor.Util.SerializedProperties.AddArrayItem(UnityEngine.Object, SerializedProperty)
+  nameWithType: SerializedProperties.AddArrayItem(UnityEngine.Object, SerializedProperty)
+- uid: PizzaPie.Editor.Util.SerializedProperties.AddArrayItem*
+  name: AddArrayItem
+  href: api/PizzaPie.Editor.Util.SerializedProperties.html#PizzaPie_Editor_Util_SerializedProperties_AddArrayItem_
+  commentId: Overload:PizzaPie.Editor.Util.SerializedProperties.AddArrayItem
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Util.SerializedProperties.AddArrayItem
+  nameWithType: SerializedProperties.AddArrayItem
+- uid: PizzaPie.Editor.Util.SerializedProperties.GetArrayElementAt(System.Int32,SerializedProperty)
+  name: GetArrayElementAt(Int32, SerializedProperty)
+  href: api/PizzaPie.Editor.Util.SerializedProperties.html#PizzaPie_Editor_Util_SerializedProperties_GetArrayElementAt_System_Int32_SerializedProperty_
+  commentId: M:PizzaPie.Editor.Util.SerializedProperties.GetArrayElementAt(System.Int32,SerializedProperty)
+  fullName: PizzaPie.Editor.Util.SerializedProperties.GetArrayElementAt(System.Int32, SerializedProperty)
+  nameWithType: SerializedProperties.GetArrayElementAt(Int32, SerializedProperty)
+- uid: PizzaPie.Editor.Util.SerializedProperties.GetArrayElementAt*
+  name: GetArrayElementAt
+  href: api/PizzaPie.Editor.Util.SerializedProperties.html#PizzaPie_Editor_Util_SerializedProperties_GetArrayElementAt_
+  commentId: Overload:PizzaPie.Editor.Util.SerializedProperties.GetArrayElementAt
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Util.SerializedProperties.GetArrayElementAt
+  nameWithType: SerializedProperties.GetArrayElementAt
+- uid: PizzaPie.Editor.Util.SerializedProperties.GetElementType(SerializedProperty)
+  name: GetElementType(SerializedProperty)
+  href: api/PizzaPie.Editor.Util.SerializedProperties.html#PizzaPie_Editor_Util_SerializedProperties_GetElementType_SerializedProperty_
+  commentId: M:PizzaPie.Editor.Util.SerializedProperties.GetElementType(SerializedProperty)
+  fullName: PizzaPie.Editor.Util.SerializedProperties.GetElementType(SerializedProperty)
+  nameWithType: SerializedProperties.GetElementType(SerializedProperty)
+- uid: PizzaPie.Editor.Util.SerializedProperties.GetElementType*
+  name: GetElementType
+  href: api/PizzaPie.Editor.Util.SerializedProperties.html#PizzaPie_Editor_Util_SerializedProperties_GetElementType_
+  commentId: Overload:PizzaPie.Editor.Util.SerializedProperties.GetElementType
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Util.SerializedProperties.GetElementType
+  nameWithType: SerializedProperties.GetElementType
+- uid: PizzaPie.Editor.Util.SerializedProperties.GetElementTypeFromString(SerializedProperty)
+  name: GetElementTypeFromString(SerializedProperty)
+  href: api/PizzaPie.Editor.Util.SerializedProperties.html#PizzaPie_Editor_Util_SerializedProperties_GetElementTypeFromString_SerializedProperty_
+  commentId: M:PizzaPie.Editor.Util.SerializedProperties.GetElementTypeFromString(SerializedProperty)
+  fullName: PizzaPie.Editor.Util.SerializedProperties.GetElementTypeFromString(SerializedProperty)
+  nameWithType: SerializedProperties.GetElementTypeFromString(SerializedProperty)
+- uid: PizzaPie.Editor.Util.SerializedProperties.GetElementTypeFromString*
+  name: GetElementTypeFromString
+  href: api/PizzaPie.Editor.Util.SerializedProperties.html#PizzaPie_Editor_Util_SerializedProperties_GetElementTypeFromString_
+  commentId: Overload:PizzaPie.Editor.Util.SerializedProperties.GetElementTypeFromString
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Util.SerializedProperties.GetElementTypeFromString
+  nameWithType: SerializedProperties.GetElementTypeFromString
+- uid: PizzaPie.Editor.Util.SerializedProperties.RemoveArrayItem(UnityEngine.Object,SerializedProperty)
+  name: RemoveArrayItem(UnityEngine.Object, SerializedProperty)
+  href: api/PizzaPie.Editor.Util.SerializedProperties.html#PizzaPie_Editor_Util_SerializedProperties_RemoveArrayItem_UnityEngine_Object_SerializedProperty_
+  commentId: M:PizzaPie.Editor.Util.SerializedProperties.RemoveArrayItem(UnityEngine.Object,SerializedProperty)
+  fullName: PizzaPie.Editor.Util.SerializedProperties.RemoveArrayItem(UnityEngine.Object, SerializedProperty)
+  nameWithType: SerializedProperties.RemoveArrayItem(UnityEngine.Object, SerializedProperty)
+- uid: PizzaPie.Editor.Util.SerializedProperties.RemoveArrayItem*
+  name: RemoveArrayItem
+  href: api/PizzaPie.Editor.Util.SerializedProperties.html#PizzaPie_Editor_Util_SerializedProperties_RemoveArrayItem_
+  commentId: Overload:PizzaPie.Editor.Util.SerializedProperties.RemoveArrayItem
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Util.SerializedProperties.RemoveArrayItem
+  nameWithType: SerializedProperties.RemoveArrayItem
+- uid: PizzaPie.Editor.Views
+  name: PizzaPie.Editor.Views
+  href: api/PizzaPie.Editor.Views.html
+  commentId: N:PizzaPie.Editor.Views
+  fullName: PizzaPie.Editor.Views
+  nameWithType: PizzaPie.Editor.Views
+- uid: PizzaPie.Editor.Views.CellView`1
+  name: CellView<T>
+  href: api/PizzaPie.Editor.Views.CellView-1.html
+  commentId: T:PizzaPie.Editor.Views.CellView`1
+  name.vb: CellView(Of T)
+  fullName: PizzaPie.Editor.Views.CellView<T>
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T)
+  nameWithType: CellView<T>
+  nameWithType.vb: CellView(Of T)
+- uid: PizzaPie.Editor.Views.CellView`1.#ctor(Vector2)
+  name: CellView(Vector2)
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1__ctor_Vector2_
+  commentId: M:PizzaPie.Editor.Views.CellView`1.#ctor(Vector2)
+  fullName: PizzaPie.Editor.Views.CellView<T>.CellView(Vector2)
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).CellView(Vector2)
+  nameWithType: CellView<T>.CellView(Vector2)
+  nameWithType.vb: CellView(Of T).CellView(Vector2)
+- uid: PizzaPie.Editor.Views.CellView`1.#ctor*
+  name: CellView
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1__ctor_
+  commentId: Overload:PizzaPie.Editor.Views.CellView`1.#ctor
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.CellView<T>.CellView
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).CellView
+  nameWithType: CellView<T>.CellView
+  nameWithType.vb: CellView(Of T).CellView
+- uid: PizzaPie.Editor.Views.CellView`1.Clone
+  name: Clone()
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_Clone
+  commentId: M:PizzaPie.Editor.Views.CellView`1.Clone
+  fullName: PizzaPie.Editor.Views.CellView<T>.Clone()
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).Clone()
+  nameWithType: CellView<T>.Clone()
+  nameWithType.vb: CellView(Of T).Clone()
+- uid: PizzaPie.Editor.Views.CellView`1.Clone*
+  name: Clone
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_Clone_
+  commentId: Overload:PizzaPie.Editor.Views.CellView`1.Clone
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.CellView<T>.Clone
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).Clone
+  nameWithType: CellView<T>.Clone
+  nameWithType.vb: CellView(Of T).Clone
+- uid: PizzaPie.Editor.Views.CellView`1.dimensions
+  name: dimensions
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_dimensions
+  commentId: F:PizzaPie.Editor.Views.CellView`1.dimensions
+  fullName: PizzaPie.Editor.Views.CellView<T>.dimensions
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).dimensions
+  nameWithType: CellView<T>.dimensions
+  nameWithType.vb: CellView(Of T).dimensions
+- uid: PizzaPie.Editor.Views.CellView`1.GetDimensions
+  name: GetDimensions
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_GetDimensions
+  commentId: P:PizzaPie.Editor.Views.CellView`1.GetDimensions
+  fullName: PizzaPie.Editor.Views.CellView<T>.GetDimensions
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).GetDimensions
+  nameWithType: CellView<T>.GetDimensions
+  nameWithType.vb: CellView(Of T).GetDimensions
+- uid: PizzaPie.Editor.Views.CellView`1.GetDimensions*
+  name: GetDimensions
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_GetDimensions_
+  commentId: Overload:PizzaPie.Editor.Views.CellView`1.GetDimensions
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.CellView<T>.GetDimensions
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).GetDimensions
+  nameWithType: CellView<T>.GetDimensions
+  nameWithType.vb: CellView(Of T).GetDimensions
+- uid: PizzaPie.Editor.Views.CellView`1.OnClick(System.Boolean)
+  name: OnClick(Boolean)
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_OnClick_System_Boolean_
+  commentId: M:PizzaPie.Editor.Views.CellView`1.OnClick(System.Boolean)
+  fullName: PizzaPie.Editor.Views.CellView<T>.OnClick(System.Boolean)
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).OnClick(System.Boolean)
+  nameWithType: CellView<T>.OnClick(Boolean)
+  nameWithType.vb: CellView(Of T).OnClick(Boolean)
+- uid: PizzaPie.Editor.Views.CellView`1.OnClick*
+  name: OnClick
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_OnClick_
+  commentId: Overload:PizzaPie.Editor.Views.CellView`1.OnClick
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.CellView<T>.OnClick
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).OnClick
+  nameWithType: CellView<T>.OnClick
+  nameWithType.vb: CellView(Of T).OnClick
+- uid: PizzaPie.Editor.Views.CellView`1.OnDoubleClick(System.Boolean)
+  name: OnDoubleClick(Boolean)
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_OnDoubleClick_System_Boolean_
+  commentId: M:PizzaPie.Editor.Views.CellView`1.OnDoubleClick(System.Boolean)
+  fullName: PizzaPie.Editor.Views.CellView<T>.OnDoubleClick(System.Boolean)
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).OnDoubleClick(System.Boolean)
+  nameWithType: CellView<T>.OnDoubleClick(Boolean)
+  nameWithType.vb: CellView(Of T).OnDoubleClick(Boolean)
+- uid: PizzaPie.Editor.Views.CellView`1.OnDoubleClick*
+  name: OnDoubleClick
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_OnDoubleClick_
+  commentId: Overload:PizzaPie.Editor.Views.CellView`1.OnDoubleClick
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.CellView<T>.OnDoubleClick
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).OnDoubleClick
+  nameWithType: CellView<T>.OnDoubleClick
+  nameWithType.vb: CellView(Of T).OnDoubleClick
+- uid: PizzaPie.Editor.Views.CellView`1.OnGUI(`0,Rect,Vector2,Event,System.Boolean@,System.Boolean@)
+  name: OnGUI(T, Rect, Vector2, Event, ref Boolean, out Boolean)
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_OnGUI__0_Rect_Vector2_Event_System_Boolean__System_Boolean__
+  commentId: M:PizzaPie.Editor.Views.CellView`1.OnGUI(`0,Rect,Vector2,Event,System.Boolean@,System.Boolean@)
+  name.vb: OnGUI(T, Rect, Vector2, Event, ByRef Boolean, ByRef Boolean)
+  fullName: PizzaPie.Editor.Views.CellView<T>.OnGUI(T, Rect, Vector2, Event, ref System.Boolean, out System.Boolean)
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).OnGUI(T, Rect, Vector2, Event, ByRef System.Boolean, ByRef System.Boolean)
+  nameWithType: CellView<T>.OnGUI(T, Rect, Vector2, Event, ref Boolean, out Boolean)
+  nameWithType.vb: CellView(Of T).OnGUI(T, Rect, Vector2, Event, ByRef Boolean, ByRef Boolean)
+- uid: PizzaPie.Editor.Views.CellView`1.OnGUI*
+  name: OnGUI
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_OnGUI_
+  commentId: Overload:PizzaPie.Editor.Views.CellView`1.OnGUI
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.CellView<T>.OnGUI
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).OnGUI
+  nameWithType: CellView<T>.OnGUI
+  nameWithType.vb: CellView(Of T).OnGUI
+- uid: PizzaPie.Editor.Views.CellView`1.OnGUIInternal(`0,Rect,System.Boolean,Event)
+  name: OnGUIInternal(T, Rect, Boolean, Event)
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_OnGUIInternal__0_Rect_System_Boolean_Event_
+  commentId: M:PizzaPie.Editor.Views.CellView`1.OnGUIInternal(`0,Rect,System.Boolean,Event)
+  fullName: PizzaPie.Editor.Views.CellView<T>.OnGUIInternal(T, Rect, System.Boolean, Event)
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).OnGUIInternal(T, Rect, System.Boolean, Event)
+  nameWithType: CellView<T>.OnGUIInternal(T, Rect, Boolean, Event)
+  nameWithType.vb: CellView(Of T).OnGUIInternal(T, Rect, Boolean, Event)
+- uid: PizzaPie.Editor.Views.CellView`1.OnGUIInternal*
+  name: OnGUIInternal
+  href: api/PizzaPie.Editor.Views.CellView-1.html#PizzaPie_Editor_Views_CellView_1_OnGUIInternal_
+  commentId: Overload:PizzaPie.Editor.Views.CellView`1.OnGUIInternal
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.CellView<T>.OnGUIInternal
+  fullName.vb: PizzaPie.Editor.Views.CellView(Of T).OnGUIInternal
+  nameWithType: CellView<T>.OnGUIInternal
+  nameWithType.vb: CellView(Of T).OnGUIInternal
+- uid: PizzaPie.Editor.Views.ListView`1
+  name: ListView<T>
+  href: api/PizzaPie.Editor.Views.ListView-1.html
+  commentId: T:PizzaPie.Editor.Views.ListView`1
+  name.vb: ListView(Of T)
+  fullName: PizzaPie.Editor.Views.ListView<T>
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T)
+  nameWithType: ListView<T>
+  nameWithType.vb: ListView(Of T)
+- uid: PizzaPie.Editor.Views.ListView`1.#ctor(System.Collections.Generic.List{`0},PizzaPie.Editor.Views.CellView{`0},System.Collections.Generic.IComparer{`0},PizzaPie.Editor.Views.SelectionType,System.Boolean)
+  name: ListView(List<T>, CellView<T>, IComparer<T>, SelectionType, Boolean)
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1__ctor_System_Collections_Generic_List__0__PizzaPie_Editor_Views_CellView__0__System_Collections_Generic_IComparer__0__PizzaPie_Editor_Views_SelectionType_System_Boolean_
+  commentId: M:PizzaPie.Editor.Views.ListView`1.#ctor(System.Collections.Generic.List{`0},PizzaPie.Editor.Views.CellView{`0},System.Collections.Generic.IComparer{`0},PizzaPie.Editor.Views.SelectionType,System.Boolean)
+  name.vb: ListView(List(Of T), CellView(Of T), IComparer(Of T), SelectionType, Boolean)
+  fullName: PizzaPie.Editor.Views.ListView<T>.ListView(System.Collections.Generic.List<T>, PizzaPie.Editor.Views.CellView<T>, System.Collections.Generic.IComparer<T>, PizzaPie.Editor.Views.SelectionType, System.Boolean)
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).ListView(System.Collections.Generic.List(Of T), PizzaPie.Editor.Views.CellView(Of T), System.Collections.Generic.IComparer(Of T), PizzaPie.Editor.Views.SelectionType, System.Boolean)
+  nameWithType: ListView<T>.ListView(List<T>, CellView<T>, IComparer<T>, SelectionType, Boolean)
+  nameWithType.vb: ListView(Of T).ListView(List(Of T), CellView(Of T), IComparer(Of T), SelectionType, Boolean)
+- uid: PizzaPie.Editor.Views.ListView`1.#ctor*
+  name: ListView
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1__ctor_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.#ctor
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.ListView
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).ListView
+  nameWithType: ListView<T>.ListView
+  nameWithType.vb: ListView(Of T).ListView
+- uid: PizzaPie.Editor.Views.ListView`1.CellClicked
+  name: CellClicked
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_CellClicked
+  commentId: E:PizzaPie.Editor.Views.ListView`1.CellClicked
+  fullName: PizzaPie.Editor.Views.ListView<T>.CellClicked
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).CellClicked
+  nameWithType: ListView<T>.CellClicked
+  nameWithType.vb: ListView(Of T).CellClicked
+- uid: PizzaPie.Editor.Views.ListView`1.CellDoubleClicked
+  name: CellDoubleClicked
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_CellDoubleClicked
+  commentId: E:PizzaPie.Editor.Views.ListView`1.CellDoubleClicked
+  fullName: PizzaPie.Editor.Views.ListView<T>.CellDoubleClicked
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).CellDoubleClicked
+  nameWithType: ListView<T>.CellDoubleClicked
+  nameWithType.vb: ListView(Of T).CellDoubleClicked
+- uid: PizzaPie.Editor.Views.ListView`1.GetSelectedItems
+  name: GetSelectedItems
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_GetSelectedItems
+  commentId: P:PizzaPie.Editor.Views.ListView`1.GetSelectedItems
+  fullName: PizzaPie.Editor.Views.ListView<T>.GetSelectedItems
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).GetSelectedItems
+  nameWithType: ListView<T>.GetSelectedItems
+  nameWithType.vb: ListView(Of T).GetSelectedItems
+- uid: PizzaPie.Editor.Views.ListView`1.GetSelectedItems*
+  name: GetSelectedItems
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_GetSelectedItems_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.GetSelectedItems
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.GetSelectedItems
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).GetSelectedItems
+  nameWithType: ListView<T>.GetSelectedItems
+  nameWithType.vb: ListView(Of T).GetSelectedItems
+- uid: PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs
+  name: ListView<T>.OnCellClickedEventArgs
+  href: api/PizzaPie.Editor.Views.ListView-1.OnCellClickedEventArgs.html
+  commentId: T:PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs
+  name.vb: ListView(Of T).OnCellClickedEventArgs
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnCellClickedEventArgs
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnCellClickedEventArgs
+  nameWithType: ListView<T>.OnCellClickedEventArgs
+  nameWithType.vb: ListView(Of T).OnCellClickedEventArgs
+- uid: PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.#ctor(`0,System.Boolean)
+  name: OnCellClickedEventArgs(T, Boolean)
+  href: api/PizzaPie.Editor.Views.ListView-1.OnCellClickedEventArgs.html#PizzaPie_Editor_Views_ListView_1_OnCellClickedEventArgs__ctor__0_System_Boolean_
+  commentId: M:PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.#ctor(`0,System.Boolean)
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnCellClickedEventArgs.OnCellClickedEventArgs(T, System.Boolean)
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnCellClickedEventArgs.OnCellClickedEventArgs(T, System.Boolean)
+  nameWithType: ListView<T>.OnCellClickedEventArgs.OnCellClickedEventArgs(T, Boolean)
+  nameWithType.vb: ListView(Of T).OnCellClickedEventArgs.OnCellClickedEventArgs(T, Boolean)
+- uid: PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.#ctor*
+  name: OnCellClickedEventArgs
+  href: api/PizzaPie.Editor.Views.ListView-1.OnCellClickedEventArgs.html#PizzaPie_Editor_Views_ListView_1_OnCellClickedEventArgs__ctor_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.#ctor
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnCellClickedEventArgs.OnCellClickedEventArgs
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnCellClickedEventArgs.OnCellClickedEventArgs
+  nameWithType: ListView<T>.OnCellClickedEventArgs.OnCellClickedEventArgs
+  nameWithType.vb: ListView(Of T).OnCellClickedEventArgs.OnCellClickedEventArgs
+- uid: PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.CellData
+  name: CellData
+  href: api/PizzaPie.Editor.Views.ListView-1.OnCellClickedEventArgs.html#PizzaPie_Editor_Views_ListView_1_OnCellClickedEventArgs_CellData
+  commentId: P:PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.CellData
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnCellClickedEventArgs.CellData
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnCellClickedEventArgs.CellData
+  nameWithType: ListView<T>.OnCellClickedEventArgs.CellData
+  nameWithType.vb: ListView(Of T).OnCellClickedEventArgs.CellData
+- uid: PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.CellData*
+  name: CellData
+  href: api/PizzaPie.Editor.Views.ListView-1.OnCellClickedEventArgs.html#PizzaPie_Editor_Views_ListView_1_OnCellClickedEventArgs_CellData_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.CellData
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnCellClickedEventArgs.CellData
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnCellClickedEventArgs.CellData
+  nameWithType: ListView<T>.OnCellClickedEventArgs.CellData
+  nameWithType.vb: ListView(Of T).OnCellClickedEventArgs.CellData
+- uid: PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.IsSelected
+  name: IsSelected
+  href: api/PizzaPie.Editor.Views.ListView-1.OnCellClickedEventArgs.html#PizzaPie_Editor_Views_ListView_1_OnCellClickedEventArgs_IsSelected
+  commentId: P:PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.IsSelected
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnCellClickedEventArgs.IsSelected
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnCellClickedEventArgs.IsSelected
+  nameWithType: ListView<T>.OnCellClickedEventArgs.IsSelected
+  nameWithType.vb: ListView(Of T).OnCellClickedEventArgs.IsSelected
+- uid: PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.IsSelected*
+  name: IsSelected
+  href: api/PizzaPie.Editor.Views.ListView-1.OnCellClickedEventArgs.html#PizzaPie_Editor_Views_ListView_1_OnCellClickedEventArgs_IsSelected_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.OnCellClickedEventArgs.IsSelected
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnCellClickedEventArgs.IsSelected
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnCellClickedEventArgs.IsSelected
+  nameWithType: ListView<T>.OnCellClickedEventArgs.IsSelected
+  nameWithType.vb: ListView(Of T).OnCellClickedEventArgs.IsSelected
+- uid: PizzaPie.Editor.Views.ListView`1.OnCellClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnCellClickedEventArgs)
+  name: OnCellClickedHandler(Object, ListView<T>.OnCellClickedEventArgs)
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_OnCellClickedHandler_System_Object_PizzaPie_Editor_Views_ListView__0__OnCellClickedEventArgs_
+  commentId: M:PizzaPie.Editor.Views.ListView`1.OnCellClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnCellClickedEventArgs)
+  name.vb: OnCellClickedHandler(Object, ListView(Of T).OnCellClickedEventArgs)
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnCellClickedHandler(System.Object, PizzaPie.Editor.Views.ListView<T>.OnCellClickedEventArgs)
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnCellClickedHandler(System.Object, PizzaPie.Editor.Views.ListView(Of T).OnCellClickedEventArgs)
+  nameWithType: ListView<T>.OnCellClickedHandler(Object, ListView<T>.OnCellClickedEventArgs)
+  nameWithType.vb: ListView(Of T).OnCellClickedHandler(Object, ListView(Of T).OnCellClickedEventArgs)
+- uid: PizzaPie.Editor.Views.ListView`1.OnCellClickedHandler*
+  name: OnCellClickedHandler
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_OnCellClickedHandler_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.OnCellClickedHandler
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnCellClickedHandler
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnCellClickedHandler
+  nameWithType: ListView<T>.OnCellClickedHandler
+  nameWithType.vb: ListView(Of T).OnCellClickedHandler
+- uid: PizzaPie.Editor.Views.ListView`1.OnCellDoubleClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnSelectionEventArgs)
+  name: OnCellDoubleClickedHandler(Object, ListView<T>.OnSelectionEventArgs)
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_OnCellDoubleClickedHandler_System_Object_PizzaPie_Editor_Views_ListView__0__OnSelectionEventArgs_
+  commentId: M:PizzaPie.Editor.Views.ListView`1.OnCellDoubleClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnSelectionEventArgs)
+  name.vb: OnCellDoubleClickedHandler(Object, ListView(Of T).OnSelectionEventArgs)
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnCellDoubleClickedHandler(System.Object, PizzaPie.Editor.Views.ListView<T>.OnSelectionEventArgs)
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnCellDoubleClickedHandler(System.Object, PizzaPie.Editor.Views.ListView(Of T).OnSelectionEventArgs)
+  nameWithType: ListView<T>.OnCellDoubleClickedHandler(Object, ListView<T>.OnSelectionEventArgs)
+  nameWithType.vb: ListView(Of T).OnCellDoubleClickedHandler(Object, ListView(Of T).OnSelectionEventArgs)
+- uid: PizzaPie.Editor.Views.ListView`1.OnCellDoubleClickedHandler*
+  name: OnCellDoubleClickedHandler
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_OnCellDoubleClickedHandler_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.OnCellDoubleClickedHandler
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnCellDoubleClickedHandler
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnCellDoubleClickedHandler
+  nameWithType: ListView<T>.OnCellDoubleClickedHandler
+  nameWithType.vb: ListView(Of T).OnCellDoubleClickedHandler
+- uid: PizzaPie.Editor.Views.ListView`1.OnGUI(Rect,Event)
+  name: OnGUI(Rect, Event)
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_OnGUI_Rect_Event_
+  commentId: M:PizzaPie.Editor.Views.ListView`1.OnGUI(Rect,Event)
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnGUI(Rect, Event)
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnGUI(Rect, Event)
+  nameWithType: ListView<T>.OnGUI(Rect, Event)
+  nameWithType.vb: ListView(Of T).OnGUI(Rect, Event)
+- uid: PizzaPie.Editor.Views.ListView`1.OnGUI*
+  name: OnGUI
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_OnGUI_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.OnGUI
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnGUI
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnGUI
+  nameWithType: ListView<T>.OnGUI
+  nameWithType.vb: ListView(Of T).OnGUI
+- uid: PizzaPie.Editor.Views.ListView`1.OnSelectionEventArgs
+  name: ListView<T>.OnSelectionEventArgs
+  href: api/PizzaPie.Editor.Views.ListView-1.OnSelectionEventArgs.html
+  commentId: T:PizzaPie.Editor.Views.ListView`1.OnSelectionEventArgs
+  name.vb: ListView(Of T).OnSelectionEventArgs
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnSelectionEventArgs
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnSelectionEventArgs
+  nameWithType: ListView<T>.OnSelectionEventArgs
+  nameWithType.vb: ListView(Of T).OnSelectionEventArgs
+- uid: PizzaPie.Editor.Views.ListView`1.OnSelectionEventArgs.#ctor(System.Collections.Generic.List{`0})
+  name: OnSelectionEventArgs(List<T>)
+  href: api/PizzaPie.Editor.Views.ListView-1.OnSelectionEventArgs.html#PizzaPie_Editor_Views_ListView_1_OnSelectionEventArgs__ctor_System_Collections_Generic_List__0__
+  commentId: M:PizzaPie.Editor.Views.ListView`1.OnSelectionEventArgs.#ctor(System.Collections.Generic.List{`0})
+  name.vb: OnSelectionEventArgs(List(Of T))
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnSelectionEventArgs.OnSelectionEventArgs(System.Collections.Generic.List<T>)
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnSelectionEventArgs.OnSelectionEventArgs(System.Collections.Generic.List(Of T))
+  nameWithType: ListView<T>.OnSelectionEventArgs.OnSelectionEventArgs(List<T>)
+  nameWithType.vb: ListView(Of T).OnSelectionEventArgs.OnSelectionEventArgs(List(Of T))
+- uid: PizzaPie.Editor.Views.ListView`1.OnSelectionEventArgs.#ctor*
+  name: OnSelectionEventArgs
+  href: api/PizzaPie.Editor.Views.ListView-1.OnSelectionEventArgs.html#PizzaPie_Editor_Views_ListView_1_OnSelectionEventArgs__ctor_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.OnSelectionEventArgs.#ctor
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnSelectionEventArgs.OnSelectionEventArgs
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnSelectionEventArgs.OnSelectionEventArgs
+  nameWithType: ListView<T>.OnSelectionEventArgs.OnSelectionEventArgs
+  nameWithType.vb: ListView(Of T).OnSelectionEventArgs.OnSelectionEventArgs
+- uid: PizzaPie.Editor.Views.ListView`1.OnSelectionEventArgs.selectedItems
+  name: selectedItems
+  href: api/PizzaPie.Editor.Views.ListView-1.OnSelectionEventArgs.html#PizzaPie_Editor_Views_ListView_1_OnSelectionEventArgs_selectedItems
+  commentId: P:PizzaPie.Editor.Views.ListView`1.OnSelectionEventArgs.selectedItems
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnSelectionEventArgs.selectedItems
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnSelectionEventArgs.selectedItems
+  nameWithType: ListView<T>.OnSelectionEventArgs.selectedItems
+  nameWithType.vb: ListView(Of T).OnSelectionEventArgs.selectedItems
+- uid: PizzaPie.Editor.Views.ListView`1.OnSelectionEventArgs.selectedItems*
+  name: selectedItems
+  href: api/PizzaPie.Editor.Views.ListView-1.OnSelectionEventArgs.html#PizzaPie_Editor_Views_ListView_1_OnSelectionEventArgs_selectedItems_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.OnSelectionEventArgs.selectedItems
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.OnSelectionEventArgs.selectedItems
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).OnSelectionEventArgs.selectedItems
+  nameWithType: ListView<T>.OnSelectionEventArgs.selectedItems
+  nameWithType.vb: ListView(Of T).OnSelectionEventArgs.selectedItems
+- uid: PizzaPie.Editor.Views.ListView`1.Select(`0)
+  name: Select(T)
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_Select__0_
+  commentId: M:PizzaPie.Editor.Views.ListView`1.Select(`0)
+  fullName: PizzaPie.Editor.Views.ListView<T>.Select(T)
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).Select(T)
+  nameWithType: ListView<T>.Select(T)
+  nameWithType.vb: ListView(Of T).Select(T)
+- uid: PizzaPie.Editor.Views.ListView`1.Select*
+  name: Select
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_Select_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.Select
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.Select
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).Select
+  nameWithType: ListView<T>.Select
+  nameWithType.vb: ListView(Of T).Select
+- uid: PizzaPie.Editor.Views.ListView`1.SortListViewCells
+  name: SortListViewCells()
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_SortListViewCells
+  commentId: M:PizzaPie.Editor.Views.ListView`1.SortListViewCells
+  fullName: PizzaPie.Editor.Views.ListView<T>.SortListViewCells()
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).SortListViewCells()
+  nameWithType: ListView<T>.SortListViewCells()
+  nameWithType.vb: ListView(Of T).SortListViewCells()
+- uid: PizzaPie.Editor.Views.ListView`1.SortListViewCells*
+  name: SortListViewCells
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_SortListViewCells_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.SortListViewCells
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.SortListViewCells
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).SortListViewCells
+  nameWithType: ListView<T>.SortListViewCells
+  nameWithType.vb: ListView(Of T).SortListViewCells
+- uid: PizzaPie.Editor.Views.ListView`1.UnselectAll
+  name: UnselectAll()
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_UnselectAll
+  commentId: M:PizzaPie.Editor.Views.ListView`1.UnselectAll
+  fullName: PizzaPie.Editor.Views.ListView<T>.UnselectAll()
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).UnselectAll()
+  nameWithType: ListView<T>.UnselectAll()
+  nameWithType.vb: ListView(Of T).UnselectAll()
+- uid: PizzaPie.Editor.Views.ListView`1.UnselectAll*
+  name: UnselectAll
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_UnselectAll_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.UnselectAll
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.UnselectAll
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).UnselectAll
+  nameWithType: ListView<T>.UnselectAll
+  nameWithType.vb: ListView(Of T).UnselectAll
+- uid: PizzaPie.Editor.Views.ListView`1.UpdateData(System.Collections.Generic.List{`0})
+  name: UpdateData(List<T>)
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_UpdateData_System_Collections_Generic_List__0__
+  commentId: M:PizzaPie.Editor.Views.ListView`1.UpdateData(System.Collections.Generic.List{`0})
+  name.vb: UpdateData(List(Of T))
+  fullName: PizzaPie.Editor.Views.ListView<T>.UpdateData(System.Collections.Generic.List<T>)
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).UpdateData(System.Collections.Generic.List(Of T))
+  nameWithType: ListView<T>.UpdateData(List<T>)
+  nameWithType.vb: ListView(Of T).UpdateData(List(Of T))
+- uid: PizzaPie.Editor.Views.ListView`1.UpdateData*
+  name: UpdateData
+  href: api/PizzaPie.Editor.Views.ListView-1.html#PizzaPie_Editor_Views_ListView_1_UpdateData_
+  commentId: Overload:PizzaPie.Editor.Views.ListView`1.UpdateData
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.ListView<T>.UpdateData
+  fullName.vb: PizzaPie.Editor.Views.ListView(Of T).UpdateData
+  nameWithType: ListView<T>.UpdateData
+  nameWithType.vb: ListView(Of T).UpdateData
+- uid: PizzaPie.Editor.Views.MultipleSelectionSearchWindow`1
+  name: MultipleSelectionSearchWindow<T>
+  href: api/PizzaPie.Editor.Views.MultipleSelectionSearchWindow-1.html
+  commentId: T:PizzaPie.Editor.Views.MultipleSelectionSearchWindow`1
+  name.vb: MultipleSelectionSearchWindow(Of T)
+  fullName: PizzaPie.Editor.Views.MultipleSelectionSearchWindow<T>
+  fullName.vb: PizzaPie.Editor.Views.MultipleSelectionSearchWindow(Of T)
+  nameWithType: MultipleSelectionSearchWindow<T>
+  nameWithType.vb: MultipleSelectionSearchWindow(Of T)
+- uid: PizzaPie.Editor.Views.MultipleSelectionSearchWindow`1.#ctor(`0[],PizzaPie.Editor.Views.SearchWindow{`0}.Filter,PizzaPie.Editor.Views.CellView{`0},System.Collections.Generic.IComparer{`0},System.Boolean)
+  name: MultipleSelectionSearchWindow(T[], SearchWindow<T>.Filter, CellView<T>, IComparer<T>, Boolean)
+  href: api/PizzaPie.Editor.Views.MultipleSelectionSearchWindow-1.html#PizzaPie_Editor_Views_MultipleSelectionSearchWindow_1__ctor__0___PizzaPie_Editor_Views_SearchWindow__0__Filter_PizzaPie_Editor_Views_CellView__0__System_Collections_Generic_IComparer__0__System_Boolean_
+  commentId: M:PizzaPie.Editor.Views.MultipleSelectionSearchWindow`1.#ctor(`0[],PizzaPie.Editor.Views.SearchWindow{`0}.Filter,PizzaPie.Editor.Views.CellView{`0},System.Collections.Generic.IComparer{`0},System.Boolean)
+  name.vb: MultipleSelectionSearchWindow(T(), SearchWindow(Of T).Filter, CellView(Of T), IComparer(Of T), Boolean)
+  fullName: PizzaPie.Editor.Views.MultipleSelectionSearchWindow<T>.MultipleSelectionSearchWindow(T[], PizzaPie.Editor.Views.SearchWindow<T>.Filter, PizzaPie.Editor.Views.CellView<T>, System.Collections.Generic.IComparer<T>, System.Boolean)
+  fullName.vb: PizzaPie.Editor.Views.MultipleSelectionSearchWindow(Of T).MultipleSelectionSearchWindow(T(), PizzaPie.Editor.Views.SearchWindow(Of T).Filter, PizzaPie.Editor.Views.CellView(Of T), System.Collections.Generic.IComparer(Of T), System.Boolean)
+  nameWithType: MultipleSelectionSearchWindow<T>.MultipleSelectionSearchWindow(T[], SearchWindow<T>.Filter, CellView<T>, IComparer<T>, Boolean)
+  nameWithType.vb: MultipleSelectionSearchWindow(Of T).MultipleSelectionSearchWindow(T(), SearchWindow(Of T).Filter, CellView(Of T), IComparer(Of T), Boolean)
+- uid: PizzaPie.Editor.Views.MultipleSelectionSearchWindow`1.#ctor*
+  name: MultipleSelectionSearchWindow
+  href: api/PizzaPie.Editor.Views.MultipleSelectionSearchWindow-1.html#PizzaPie_Editor_Views_MultipleSelectionSearchWindow_1__ctor_
+  commentId: Overload:PizzaPie.Editor.Views.MultipleSelectionSearchWindow`1.#ctor
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.MultipleSelectionSearchWindow<T>.MultipleSelectionSearchWindow
+  fullName.vb: PizzaPie.Editor.Views.MultipleSelectionSearchWindow(Of T).MultipleSelectionSearchWindow
+  nameWithType: MultipleSelectionSearchWindow<T>.MultipleSelectionSearchWindow
+  nameWithType.vb: MultipleSelectionSearchWindow(Of T).MultipleSelectionSearchWindow
+- uid: PizzaPie.Editor.Views.MultipleSelectionSearchWindow`1.OnGUI(Rect)
+  name: OnGUI(Rect)
+  href: api/PizzaPie.Editor.Views.MultipleSelectionSearchWindow-1.html#PizzaPie_Editor_Views_MultipleSelectionSearchWindow_1_OnGUI_Rect_
+  commentId: M:PizzaPie.Editor.Views.MultipleSelectionSearchWindow`1.OnGUI(Rect)
+  fullName: PizzaPie.Editor.Views.MultipleSelectionSearchWindow<T>.OnGUI(Rect)
+  fullName.vb: PizzaPie.Editor.Views.MultipleSelectionSearchWindow(Of T).OnGUI(Rect)
+  nameWithType: MultipleSelectionSearchWindow<T>.OnGUI(Rect)
+  nameWithType.vb: MultipleSelectionSearchWindow(Of T).OnGUI(Rect)
+- uid: PizzaPie.Editor.Views.MultipleSelectionSearchWindow`1.OnGUI*
+  name: OnGUI
+  href: api/PizzaPie.Editor.Views.MultipleSelectionSearchWindow-1.html#PizzaPie_Editor_Views_MultipleSelectionSearchWindow_1_OnGUI_
+  commentId: Overload:PizzaPie.Editor.Views.MultipleSelectionSearchWindow`1.OnGUI
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.MultipleSelectionSearchWindow<T>.OnGUI
+  fullName.vb: PizzaPie.Editor.Views.MultipleSelectionSearchWindow(Of T).OnGUI
+  nameWithType: MultipleSelectionSearchWindow<T>.OnGUI
+  nameWithType.vb: MultipleSelectionSearchWindow(Of T).OnGUI
+- uid: PizzaPie.Editor.Views.SearchWindow`1
+  name: SearchWindow<T>
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html
+  commentId: T:PizzaPie.Editor.Views.SearchWindow`1
+  name.vb: SearchWindow(Of T)
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T)
+  nameWithType: SearchWindow<T>
+  nameWithType.vb: SearchWindow(Of T)
+- uid: PizzaPie.Editor.Views.SearchWindow`1.#ctor(`0[],PizzaPie.Editor.Views.SearchWindow{`0}.Filter,PizzaPie.Editor.Views.CellView{`0},System.Collections.Generic.IComparer{`0},PizzaPie.Editor.Views.SelectionType)
+  name: SearchWindow(T[], SearchWindow<T>.Filter, CellView<T>, IComparer<T>, SelectionType)
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1__ctor__0___PizzaPie_Editor_Views_SearchWindow__0__Filter_PizzaPie_Editor_Views_CellView__0__System_Collections_Generic_IComparer__0__PizzaPie_Editor_Views_SelectionType_
+  commentId: M:PizzaPie.Editor.Views.SearchWindow`1.#ctor(`0[],PizzaPie.Editor.Views.SearchWindow{`0}.Filter,PizzaPie.Editor.Views.CellView{`0},System.Collections.Generic.IComparer{`0},PizzaPie.Editor.Views.SelectionType)
+  name.vb: SearchWindow(T(), SearchWindow(Of T).Filter, CellView(Of T), IComparer(Of T), SelectionType)
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.SearchWindow(T[], PizzaPie.Editor.Views.SearchWindow<T>.Filter, PizzaPie.Editor.Views.CellView<T>, System.Collections.Generic.IComparer<T>, PizzaPie.Editor.Views.SelectionType)
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).SearchWindow(T(), PizzaPie.Editor.Views.SearchWindow(Of T).Filter, PizzaPie.Editor.Views.CellView(Of T), System.Collections.Generic.IComparer(Of T), PizzaPie.Editor.Views.SelectionType)
+  nameWithType: SearchWindow<T>.SearchWindow(T[], SearchWindow<T>.Filter, CellView<T>, IComparer<T>, SelectionType)
+  nameWithType.vb: SearchWindow(Of T).SearchWindow(T(), SearchWindow(Of T).Filter, CellView(Of T), IComparer(Of T), SelectionType)
+- uid: PizzaPie.Editor.Views.SearchWindow`1.#ctor*
+  name: SearchWindow
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1__ctor_
+  commentId: Overload:PizzaPie.Editor.Views.SearchWindow`1.#ctor
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.SearchWindow
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).SearchWindow
+  nameWithType: SearchWindow<T>.SearchWindow
+  nameWithType.vb: SearchWindow(Of T).SearchWindow
+- uid: PizzaPie.Editor.Views.SearchWindow`1.CellClicked
+  name: CellClicked
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_CellClicked
+  commentId: E:PizzaPie.Editor.Views.SearchWindow`1.CellClicked
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.CellClicked
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).CellClicked
+  nameWithType: SearchWindow<T>.CellClicked
+  nameWithType.vb: SearchWindow(Of T).CellClicked
+- uid: PizzaPie.Editor.Views.SearchWindow`1.CellDoubleClicked
+  name: CellDoubleClicked
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_CellDoubleClicked
+  commentId: E:PizzaPie.Editor.Views.SearchWindow`1.CellDoubleClicked
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.CellDoubleClicked
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).CellDoubleClicked
+  nameWithType: SearchWindow<T>.CellDoubleClicked
+  nameWithType.vb: SearchWindow(Of T).CellDoubleClicked
+- uid: PizzaPie.Editor.Views.SearchWindow`1.cellView
+  name: cellView
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_cellView
+  commentId: F:PizzaPie.Editor.Views.SearchWindow`1.cellView
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.cellView
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).cellView
+  nameWithType: SearchWindow<T>.cellView
+  nameWithType.vb: SearchWindow(Of T).cellView
+- uid: PizzaPie.Editor.Views.SearchWindow`1.Filter
+  name: SearchWindow<T>.Filter
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.Filter.html
+  commentId: T:PizzaPie.Editor.Views.SearchWindow`1.Filter
+  name.vb: SearchWindow(Of T).Filter
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.Filter
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).Filter
+  nameWithType: SearchWindow<T>.Filter
+  nameWithType.vb: SearchWindow(Of T).Filter
+- uid: PizzaPie.Editor.Views.SearchWindow`1.Filter.IsItemValid(`0,System.String)
+  name: IsItemValid(T, String)
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.Filter.html#PizzaPie_Editor_Views_SearchWindow_1_Filter_IsItemValid__0_System_String_
+  commentId: M:PizzaPie.Editor.Views.SearchWindow`1.Filter.IsItemValid(`0,System.String)
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.Filter.IsItemValid(T, System.String)
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).Filter.IsItemValid(T, System.String)
+  nameWithType: SearchWindow<T>.Filter.IsItemValid(T, String)
+  nameWithType.vb: SearchWindow(Of T).Filter.IsItemValid(T, String)
+- uid: PizzaPie.Editor.Views.SearchWindow`1.Filter.IsItemValid*
+  name: IsItemValid
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.Filter.html#PizzaPie_Editor_Views_SearchWindow_1_Filter_IsItemValid_
+  commentId: Overload:PizzaPie.Editor.Views.SearchWindow`1.Filter.IsItemValid
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.Filter.IsItemValid
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).Filter.IsItemValid
+  nameWithType: SearchWindow<T>.Filter.IsItemValid
+  nameWithType.vb: SearchWindow(Of T).Filter.IsItemValid
+- uid: PizzaPie.Editor.Views.SearchWindow`1.listView
+  name: listView
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_listView
+  commentId: F:PizzaPie.Editor.Views.SearchWindow`1.listView
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.listView
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).listView
+  nameWithType: SearchWindow<T>.listView
+  nameWithType.vb: SearchWindow(Of T).listView
+- uid: PizzaPie.Editor.Views.SearchWindow`1.listViewHeightOffset
+  name: listViewHeightOffset
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_listViewHeightOffset
+  commentId: F:PizzaPie.Editor.Views.SearchWindow`1.listViewHeightOffset
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.listViewHeightOffset
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).listViewHeightOffset
+  nameWithType: SearchWindow<T>.listViewHeightOffset
+  nameWithType.vb: SearchWindow(Of T).listViewHeightOffset
+- uid: PizzaPie.Editor.Views.SearchWindow`1.OnCellClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnCellClickedEventArgs)
+  name: OnCellClickedHandler(Object, ListView<T>.OnCellClickedEventArgs)
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_OnCellClickedHandler_System_Object_PizzaPie_Editor_Views_ListView__0__OnCellClickedEventArgs_
+  commentId: M:PizzaPie.Editor.Views.SearchWindow`1.OnCellClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnCellClickedEventArgs)
+  name.vb: OnCellClickedHandler(Object, ListView(Of T).OnCellClickedEventArgs)
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.OnCellClickedHandler(System.Object, PizzaPie.Editor.Views.ListView<T>.OnCellClickedEventArgs)
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).OnCellClickedHandler(System.Object, PizzaPie.Editor.Views.ListView(Of T).OnCellClickedEventArgs)
+  nameWithType: SearchWindow<T>.OnCellClickedHandler(Object, ListView<T>.OnCellClickedEventArgs)
+  nameWithType.vb: SearchWindow(Of T).OnCellClickedHandler(Object, ListView(Of T).OnCellClickedEventArgs)
+- uid: PizzaPie.Editor.Views.SearchWindow`1.OnCellClickedHandler*
+  name: OnCellClickedHandler
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_OnCellClickedHandler_
+  commentId: Overload:PizzaPie.Editor.Views.SearchWindow`1.OnCellClickedHandler
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.OnCellClickedHandler
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).OnCellClickedHandler
+  nameWithType: SearchWindow<T>.OnCellClickedHandler
+  nameWithType.vb: SearchWindow(Of T).OnCellClickedHandler
+- uid: PizzaPie.Editor.Views.SearchWindow`1.OnCellDoubleClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnSelectionEventArgs)
+  name: OnCellDoubleClickedHandler(Object, ListView<T>.OnSelectionEventArgs)
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_OnCellDoubleClickedHandler_System_Object_PizzaPie_Editor_Views_ListView__0__OnSelectionEventArgs_
+  commentId: M:PizzaPie.Editor.Views.SearchWindow`1.OnCellDoubleClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnSelectionEventArgs)
+  name.vb: OnCellDoubleClickedHandler(Object, ListView(Of T).OnSelectionEventArgs)
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.OnCellDoubleClickedHandler(System.Object, PizzaPie.Editor.Views.ListView<T>.OnSelectionEventArgs)
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).OnCellDoubleClickedHandler(System.Object, PizzaPie.Editor.Views.ListView(Of T).OnSelectionEventArgs)
+  nameWithType: SearchWindow<T>.OnCellDoubleClickedHandler(Object, ListView<T>.OnSelectionEventArgs)
+  nameWithType.vb: SearchWindow(Of T).OnCellDoubleClickedHandler(Object, ListView(Of T).OnSelectionEventArgs)
+- uid: PizzaPie.Editor.Views.SearchWindow`1.OnCellDoubleClickedHandler*
+  name: OnCellDoubleClickedHandler
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_OnCellDoubleClickedHandler_
+  commentId: Overload:PizzaPie.Editor.Views.SearchWindow`1.OnCellDoubleClickedHandler
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.OnCellDoubleClickedHandler
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).OnCellDoubleClickedHandler
+  nameWithType: SearchWindow<T>.OnCellDoubleClickedHandler
+  nameWithType.vb: SearchWindow(Of T).OnCellDoubleClickedHandler
+- uid: PizzaPie.Editor.Views.SearchWindow`1.OnGUI(Rect)
+  name: OnGUI(Rect)
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_OnGUI_Rect_
+  commentId: M:PizzaPie.Editor.Views.SearchWindow`1.OnGUI(Rect)
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.OnGUI(Rect)
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).OnGUI(Rect)
+  nameWithType: SearchWindow<T>.OnGUI(Rect)
+  nameWithType.vb: SearchWindow(Of T).OnGUI(Rect)
+- uid: PizzaPie.Editor.Views.SearchWindow`1.OnGUI*
+  name: OnGUI
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_OnGUI_
+  commentId: Overload:PizzaPie.Editor.Views.SearchWindow`1.OnGUI
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.OnGUI
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).OnGUI
+  nameWithType: SearchWindow<T>.OnGUI
+  nameWithType.vb: SearchWindow(Of T).OnGUI
+- uid: PizzaPie.Editor.Views.SearchWindow`1.OnSelectionFinished(PizzaPie.Editor.Views.ListView{`0}.OnSelectionEventArgs)
+  name: OnSelectionFinished(ListView<T>.OnSelectionEventArgs)
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_OnSelectionFinished_PizzaPie_Editor_Views_ListView__0__OnSelectionEventArgs_
+  commentId: M:PizzaPie.Editor.Views.SearchWindow`1.OnSelectionFinished(PizzaPie.Editor.Views.ListView{`0}.OnSelectionEventArgs)
+  name.vb: OnSelectionFinished(ListView(Of T).OnSelectionEventArgs)
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.OnSelectionFinished(PizzaPie.Editor.Views.ListView<T>.OnSelectionEventArgs)
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).OnSelectionFinished(PizzaPie.Editor.Views.ListView(Of T).OnSelectionEventArgs)
+  nameWithType: SearchWindow<T>.OnSelectionFinished(ListView<T>.OnSelectionEventArgs)
+  nameWithType.vb: SearchWindow(Of T).OnSelectionFinished(ListView(Of T).OnSelectionEventArgs)
+- uid: PizzaPie.Editor.Views.SearchWindow`1.OnSelectionFinished*
+  name: OnSelectionFinished
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_OnSelectionFinished_
+  commentId: Overload:PizzaPie.Editor.Views.SearchWindow`1.OnSelectionFinished
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.OnSelectionFinished
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).OnSelectionFinished
+  nameWithType: SearchWindow<T>.OnSelectionFinished
+  nameWithType.vb: SearchWindow(Of T).OnSelectionFinished
+- uid: PizzaPie.Editor.Views.SearchWindow`1.SelectionFinished
+  name: SelectionFinished
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_SelectionFinished
+  commentId: E:PizzaPie.Editor.Views.SearchWindow`1.SelectionFinished
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.SelectionFinished
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).SelectionFinished
+  nameWithType: SearchWindow<T>.SelectionFinished
+  nameWithType.vb: SearchWindow(Of T).SelectionFinished
+- uid: PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItem(`0)
+  name: SetPreselectedItem(T)
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_SetPreselectedItem__0_
+  commentId: M:PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItem(`0)
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.SetPreselectedItem(T)
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).SetPreselectedItem(T)
+  nameWithType: SearchWindow<T>.SetPreselectedItem(T)
+  nameWithType.vb: SearchWindow(Of T).SetPreselectedItem(T)
+- uid: PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItem*
+  name: SetPreselectedItem
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_SetPreselectedItem_
+  commentId: Overload:PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItem
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.SetPreselectedItem
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).SetPreselectedItem
+  nameWithType: SearchWindow<T>.SetPreselectedItem
+  nameWithType.vb: SearchWindow(Of T).SetPreselectedItem
+- uid: PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItems(System.Collections.Generic.List{`0})
+  name: SetPreselectedItems(List<T>)
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_SetPreselectedItems_System_Collections_Generic_List__0__
+  commentId: M:PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItems(System.Collections.Generic.List{`0})
+  name.vb: SetPreselectedItems(List(Of T))
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.SetPreselectedItems(System.Collections.Generic.List<T>)
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).SetPreselectedItems(System.Collections.Generic.List(Of T))
+  nameWithType: SearchWindow<T>.SetPreselectedItems(List<T>)
+  nameWithType.vb: SearchWindow(Of T).SetPreselectedItems(List(Of T))
+- uid: PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItems*
+  name: SetPreselectedItems
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_SetPreselectedItems_
+  commentId: Overload:PizzaPie.Editor.Views.SearchWindow`1.SetPreselectedItems
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.SetPreselectedItems
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).SetPreselectedItems
+  nameWithType: SearchWindow<T>.SetPreselectedItems
+  nameWithType.vb: SearchWindow(Of T).SetPreselectedItems
+- uid: PizzaPie.Editor.Views.SearchWindow`1.sourceItems
+  name: sourceItems
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_sourceItems
+  commentId: F:PizzaPie.Editor.Views.SearchWindow`1.sourceItems
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.sourceItems
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).sourceItems
+  nameWithType: SearchWindow<T>.sourceItems
+  nameWithType.vb: SearchWindow(Of T).sourceItems
+- uid: PizzaPie.Editor.Views.SearchWindow`1.UnselectAll
+  name: UnselectAll()
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_UnselectAll
+  commentId: M:PizzaPie.Editor.Views.SearchWindow`1.UnselectAll
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.UnselectAll()
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).UnselectAll()
+  nameWithType: SearchWindow<T>.UnselectAll()
+  nameWithType.vb: SearchWindow(Of T).UnselectAll()
+- uid: PizzaPie.Editor.Views.SearchWindow`1.UnselectAll*
+  name: UnselectAll
+  href: api/PizzaPie.Editor.Views.SearchWindow-1.html#PizzaPie_Editor_Views_SearchWindow_1_UnselectAll_
+  commentId: Overload:PizzaPie.Editor.Views.SearchWindow`1.UnselectAll
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.SearchWindow<T>.UnselectAll
+  fullName.vb: PizzaPie.Editor.Views.SearchWindow(Of T).UnselectAll
+  nameWithType: SearchWindow<T>.UnselectAll
+  nameWithType.vb: SearchWindow(Of T).UnselectAll
+- uid: PizzaPie.Editor.Views.SelectionType
+  name: SelectionType
+  href: api/PizzaPie.Editor.Views.SelectionType.html
+  commentId: T:PizzaPie.Editor.Views.SelectionType
+  fullName: PizzaPie.Editor.Views.SelectionType
+  nameWithType: SelectionType
+- uid: PizzaPie.Editor.Views.SelectionType.multiple
+  name: multiple
+  href: api/PizzaPie.Editor.Views.SelectionType.html#PizzaPie_Editor_Views_SelectionType_multiple
+  commentId: F:PizzaPie.Editor.Views.SelectionType.multiple
+  fullName: PizzaPie.Editor.Views.SelectionType.multiple
+  nameWithType: SelectionType.multiple
+- uid: PizzaPie.Editor.Views.SelectionType.single
+  name: single
+  href: api/PizzaPie.Editor.Views.SelectionType.html#PizzaPie_Editor_Views_SelectionType_single
+  commentId: F:PizzaPie.Editor.Views.SelectionType.single
+  fullName: PizzaPie.Editor.Views.SelectionType.single
+  nameWithType: SelectionType.single
+- uid: PizzaPie.Editor.Views.SingleSelectionSearchWindow`1
+  name: SingleSelectionSearchWindow<T>
+  href: api/PizzaPie.Editor.Views.SingleSelectionSearchWindow-1.html
+  commentId: T:PizzaPie.Editor.Views.SingleSelectionSearchWindow`1
+  name.vb: SingleSelectionSearchWindow(Of T)
+  fullName: PizzaPie.Editor.Views.SingleSelectionSearchWindow<T>
+  fullName.vb: PizzaPie.Editor.Views.SingleSelectionSearchWindow(Of T)
+  nameWithType: SingleSelectionSearchWindow<T>
+  nameWithType.vb: SingleSelectionSearchWindow(Of T)
+- uid: PizzaPie.Editor.Views.SingleSelectionSearchWindow`1.#ctor(`0[],PizzaPie.Editor.Views.SearchWindow{`0}.Filter,PizzaPie.Editor.Views.CellView{`0},System.Collections.Generic.IComparer{`0})
+  name: SingleSelectionSearchWindow(T[], SearchWindow<T>.Filter, CellView<T>, IComparer<T>)
+  href: api/PizzaPie.Editor.Views.SingleSelectionSearchWindow-1.html#PizzaPie_Editor_Views_SingleSelectionSearchWindow_1__ctor__0___PizzaPie_Editor_Views_SearchWindow__0__Filter_PizzaPie_Editor_Views_CellView__0__System_Collections_Generic_IComparer__0__
+  commentId: M:PizzaPie.Editor.Views.SingleSelectionSearchWindow`1.#ctor(`0[],PizzaPie.Editor.Views.SearchWindow{`0}.Filter,PizzaPie.Editor.Views.CellView{`0},System.Collections.Generic.IComparer{`0})
+  name.vb: SingleSelectionSearchWindow(T(), SearchWindow(Of T).Filter, CellView(Of T), IComparer(Of T))
+  fullName: PizzaPie.Editor.Views.SingleSelectionSearchWindow<T>.SingleSelectionSearchWindow(T[], PizzaPie.Editor.Views.SearchWindow<T>.Filter, PizzaPie.Editor.Views.CellView<T>, System.Collections.Generic.IComparer<T>)
+  fullName.vb: PizzaPie.Editor.Views.SingleSelectionSearchWindow(Of T).SingleSelectionSearchWindow(T(), PizzaPie.Editor.Views.SearchWindow(Of T).Filter, PizzaPie.Editor.Views.CellView(Of T), System.Collections.Generic.IComparer(Of T))
+  nameWithType: SingleSelectionSearchWindow<T>.SingleSelectionSearchWindow(T[], SearchWindow<T>.Filter, CellView<T>, IComparer<T>)
+  nameWithType.vb: SingleSelectionSearchWindow(Of T).SingleSelectionSearchWindow(T(), SearchWindow(Of T).Filter, CellView(Of T), IComparer(Of T))
+- uid: PizzaPie.Editor.Views.SingleSelectionSearchWindow`1.#ctor*
+  name: SingleSelectionSearchWindow
+  href: api/PizzaPie.Editor.Views.SingleSelectionSearchWindow-1.html#PizzaPie_Editor_Views_SingleSelectionSearchWindow_1__ctor_
+  commentId: Overload:PizzaPie.Editor.Views.SingleSelectionSearchWindow`1.#ctor
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.SingleSelectionSearchWindow<T>.SingleSelectionSearchWindow
+  fullName.vb: PizzaPie.Editor.Views.SingleSelectionSearchWindow(Of T).SingleSelectionSearchWindow
+  nameWithType: SingleSelectionSearchWindow<T>.SingleSelectionSearchWindow
+  nameWithType.vb: SingleSelectionSearchWindow(Of T).SingleSelectionSearchWindow
+- uid: PizzaPie.Editor.Views.SingleSelectionSearchWindow`1.OnCellDoubleClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnSelectionEventArgs)
+  name: OnCellDoubleClickedHandler(Object, ListView<T>.OnSelectionEventArgs)
+  href: api/PizzaPie.Editor.Views.SingleSelectionSearchWindow-1.html#PizzaPie_Editor_Views_SingleSelectionSearchWindow_1_OnCellDoubleClickedHandler_System_Object_PizzaPie_Editor_Views_ListView__0__OnSelectionEventArgs_
+  commentId: M:PizzaPie.Editor.Views.SingleSelectionSearchWindow`1.OnCellDoubleClickedHandler(System.Object,PizzaPie.Editor.Views.ListView{`0}.OnSelectionEventArgs)
+  name.vb: OnCellDoubleClickedHandler(Object, ListView(Of T).OnSelectionEventArgs)
+  fullName: PizzaPie.Editor.Views.SingleSelectionSearchWindow<T>.OnCellDoubleClickedHandler(System.Object, PizzaPie.Editor.Views.ListView<T>.OnSelectionEventArgs)
+  fullName.vb: PizzaPie.Editor.Views.SingleSelectionSearchWindow(Of T).OnCellDoubleClickedHandler(System.Object, PizzaPie.Editor.Views.ListView(Of T).OnSelectionEventArgs)
+  nameWithType: SingleSelectionSearchWindow<T>.OnCellDoubleClickedHandler(Object, ListView<T>.OnSelectionEventArgs)
+  nameWithType.vb: SingleSelectionSearchWindow(Of T).OnCellDoubleClickedHandler(Object, ListView(Of T).OnSelectionEventArgs)
+- uid: PizzaPie.Editor.Views.SingleSelectionSearchWindow`1.OnCellDoubleClickedHandler*
+  name: OnCellDoubleClickedHandler
+  href: api/PizzaPie.Editor.Views.SingleSelectionSearchWindow-1.html#PizzaPie_Editor_Views_SingleSelectionSearchWindow_1_OnCellDoubleClickedHandler_
+  commentId: Overload:PizzaPie.Editor.Views.SingleSelectionSearchWindow`1.OnCellDoubleClickedHandler
+  isSpec: "True"
+  fullName: PizzaPie.Editor.Views.SingleSelectionSearchWindow<T>.OnCellDoubleClickedHandler
+  fullName.vb: PizzaPie.Editor.Views.SingleSelectionSearchWindow(Of T).OnCellDoubleClickedHandler
+  nameWithType: SingleSelectionSearchWindow<T>.OnCellDoubleClickedHandler
+  nameWithType.vb: SingleSelectionSearchWindow(Of T).OnCellDoubleClickedHandler
+- uid: PizzaPie.Runtime.Util
+  name: PizzaPie.Runtime.Util
+  href: api/PizzaPie.Runtime.Util.html
+  commentId: N:PizzaPie.Runtime.Util
+  fullName: PizzaPie.Runtime.Util
+  nameWithType: PizzaPie.Runtime.Util
+- uid: PizzaPie.Runtime.Util.NaturalStringComparer
+  name: NaturalStringComparer
+  href: api/PizzaPie.Runtime.Util.NaturalStringComparer.html
+  commentId: T:PizzaPie.Runtime.Util.NaturalStringComparer
+  fullName: PizzaPie.Runtime.Util.NaturalStringComparer
+  nameWithType: NaturalStringComparer
+- uid: PizzaPie.Runtime.Util.NaturalStringComparer.Compare(System.String,System.String)
+  name: Compare(String, String)
+  href: api/PizzaPie.Runtime.Util.NaturalStringComparer.html#PizzaPie_Runtime_Util_NaturalStringComparer_Compare_System_String_System_String_
+  commentId: M:PizzaPie.Runtime.Util.NaturalStringComparer.Compare(System.String,System.String)
+  fullName: PizzaPie.Runtime.Util.NaturalStringComparer.Compare(System.String, System.String)
+  nameWithType: NaturalStringComparer.Compare(String, String)
+- uid: PizzaPie.Runtime.Util.NaturalStringComparer.Compare*
+  name: Compare
+  href: api/PizzaPie.Runtime.Util.NaturalStringComparer.html#PizzaPie_Runtime_Util_NaturalStringComparer_Compare_
+  commentId: Overload:PizzaPie.Runtime.Util.NaturalStringComparer.Compare
+  isSpec: "True"
+  fullName: PizzaPie.Runtime.Util.NaturalStringComparer.Compare
+  nameWithType: NaturalStringComparer.Compare

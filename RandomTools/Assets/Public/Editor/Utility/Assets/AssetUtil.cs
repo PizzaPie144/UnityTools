@@ -12,7 +12,7 @@ namespace PizzaPie.Editor.Util
     /// <summary>
     /// Contains helper methods for handling Assets
     /// </summary>
-    public static class AssetUtil
+    public static class Assets
     {
 
         /// <summary>

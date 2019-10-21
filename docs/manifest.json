@@ -5,11 +5,83 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PizzaPie.Editor.Util.AssetUtil.yml",
+      "source_relative_path": "api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PizzaPie.Editor.Util.AssetUtil.html",
-          "hash": "NJY3NxrNjdpF9rIlvX8UmQ=="
+          "relative_path": "api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectCellView.html",
+          "hash": "SAdnyDTe6NvR4Idjb3thJw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameCompararer.html",
+          "hash": "GaSHHRgXp28H8pBtTvCZCQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Example.MultiSelectGameObject.GameObjectNameFilter.html",
+          "hash": "ltfXzBJAm/xpcOHsIgXkkQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Example.MultiSelectGameObject.MultiSelectGameObjectMonobehaviourInspector.html",
+          "hash": "IxPCAhkKS364Teivbk8x+g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Example.MultiSelectGameObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Example.MultiSelectGameObject.html",
+          "hash": "/UhlHxEoxkTP/XG4dFOUdA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Util.Assets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Util.Assets.html",
+          "hash": "1TMFuEJMndXIkyfFYF9TaQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Util.SerializedProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Util.SerializedProperties.html",
+          "hash": "+2+sMBdI6y+cwmqd65dWfQ=="
         }
       },
       "is_incremental": false,
@@ -21,10 +93,154 @@
       "output": {
         ".html": {
           "relative_path": "api/PizzaPie.Editor.Util.html",
-          "hash": "3RGCK5PeyduuGKEaG7dNTw=="
+          "hash": "ZRC+LyyIbtUjsOe358Vaiw=="
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Views.CellView-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Views.CellView-1.html",
+          "hash": "P1KFiByIB0wUZQBTCmHh8g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Views.ListView-1.OnCellClickedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Views.ListView-1.OnCellClickedEventArgs.html",
+          "hash": "qM5LTRiE3Wd9J1QIMlEaYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Views.ListView-1.OnSelectionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Views.ListView-1.OnSelectionEventArgs.html",
+          "hash": "GO3x+rBGKD+JU5Bxn1ScVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Views.ListView-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Views.ListView-1.html",
+          "hash": "DPIhEgCxGoulGOcVbRhRTg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Views.MultipleSelectionSearchWindow-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Views.MultipleSelectionSearchWindow-1.html",
+          "hash": "NMlDtmskBRLPtG0EQ6P9vg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Views.SearchWindow-1.Filter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Views.SearchWindow-1.Filter.html",
+          "hash": "7eLl6eZ/vraZeFaBY5gkFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Views.SearchWindow-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Views.SearchWindow-1.html",
+          "hash": "olZK7PUtsj7ij3tDqYejWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Views.SelectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Views.SelectionType.html",
+          "hash": "ANURrzkKfI21GSDA820SBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Views.SingleSelectionSearchWindow-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Views.SingleSelectionSearchWindow-1.html",
+          "hash": "nzy79jB4Zuf/cWxGTvAfaQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Editor.Views.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Editor.Views.html",
+          "hash": "FS1fixEv3vax1ZTMGbBgJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Runtime.Util.NaturalStringComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Runtime.Util.NaturalStringComparer.html",
+          "hash": "mspaS/NuDwXEEWWSjwXskw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PizzaPie.Runtime.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PizzaPie.Runtime.Util.html",
+          "hash": "lSARrgk686XphUx6MC0GhA=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -36,7 +252,7 @@
           "hash": "TTy83m1CAMJrYLE2bdoVmA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "gyUu2ShEFvn9N7TUN6klCA=="
+          "hash": "t3gyp3yAMFV6AU5OnJ0lEg=="
         }
       },
       "is_incremental": false,
@@ -109,24 +325,24 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 20,
+          "skipped_file_count": 19
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
         }
       }
     },

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Assets
+    <title>Class SerializedProperties
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Assets
+    <meta name="title" content="Class SerializedProperties
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -68,18 +68,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="PizzaPie.Editor.Util.Assets">
+            <article class="content wrap" id="_content" data-uid="PizzaPie.Editor.Util.SerializedProperties">
   
   
-  <h1 id="PizzaPie_Editor_Util_Assets" data-uid="PizzaPie.Editor.Util.Assets" class="text-break">Class Assets
+  <h1 id="PizzaPie_Editor_Util_SerializedProperties" data-uid="PizzaPie.Editor.Util.SerializedProperties" class="text-break">Class SerializedProperties
   </h1>
-  <div class="markdown level0 summary"><p>Contains helper methods for handling Assets</p>
+  <div class="markdown level0 summary"><p>Utility class for handling SerializedProperties.
+Array refers to serializable (by Unity's Serializer) collections (List, Array).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Assets</span></div>
+    <div class="level1"><span class="xref">SerializedProperties</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -107,23 +108,22 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="PizzaPie.Editor.Util.html">PizzaPie.Editor.Util</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="PizzaPie_Editor_Util_Assets_syntax">Syntax</h5>
+  <h5 id="PizzaPie_Editor_Util_SerializedProperties_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Assets</code></pre>
+    <pre><code class="lang-csharp hljs">public static class SerializedProperties</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="PizzaPie_Editor_Util_Assets_CreateAsset_" data-uid="PizzaPie.Editor.Util.Assets.CreateAsset*"></a>
-  <h4 id="PizzaPie_Editor_Util_Assets_CreateAsset__1_System_String_System_Boolean_System_String_" data-uid="PizzaPie.Editor.Util.Assets.CreateAsset``1(System.String,System.Boolean,System.String)">CreateAsset&lt;T&gt;(String, Boolean, String)</h4>
-  <div class="markdown level1 summary"><p>Create Asset of type T.</p>
+  <a id="PizzaPie_Editor_Util_SerializedProperties_AddArrayItem_" data-uid="PizzaPie.Editor.Util.SerializedProperties.AddArrayItem*"></a>
+  <h4 id="PizzaPie_Editor_Util_SerializedProperties_AddArrayItem_UnityEngine_Object_SerializedProperty_" data-uid="PizzaPie.Editor.Util.SerializedProperties.AddArrayItem(UnityEngine.Object,SerializedProperty)">AddArrayItem(UnityEngine.Object, SerializedProperty)</h4>
+  <div class="markdown level1 summary"><p>Add Unity Object to Serialized Property array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T CreateAsset&lt;T&gt;(string path, bool createPath = true, string name = &quot;&quot;)
-    where T : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public static void AddArrayItem(UnityEngine.Object item, SerializedProperty serializedProperty)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,67 +136,29 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">path</span></td>
-        <td><p>Path relative to &quot;**/MyProject/Assets/&quot;, may start with &quot;Assets/&quot;.</p>
+        <td><span class="xref">UnityEngine.Object</span></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>Item to add.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">createPath</span></td>
-        <td><p>Create the path folders if not present.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>Name of the Asset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The new instance.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Derives from ScriptableObject</p>
+        <td><span class="xref">SerializedProperty</span></td>
+        <td><span class="parametername">serializedProperty</span></td>
+        <td><p>Serialized Property array.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="PizzaPie_Editor_Util_Assets_CreateFolder_" data-uid="PizzaPie.Editor.Util.Assets.CreateFolder*"></a>
-  <h4 id="PizzaPie_Editor_Util_Assets_CreateFolder_System_String_" data-uid="PizzaPie.Editor.Util.Assets.CreateFolder(System.String)">CreateFolder(String)</h4>
-  <div class="markdown level1 summary"><p>Create folder/s based on path if they do not exist.</p>
+  <a id="PizzaPie_Editor_Util_SerializedProperties_GetArrayElementAt_" data-uid="PizzaPie.Editor.Util.SerializedProperties.GetArrayElementAt*"></a>
+  <h4 id="PizzaPie_Editor_Util_SerializedProperties_GetArrayElementAt_System_Int32_SerializedProperty_" data-uid="PizzaPie.Editor.Util.SerializedProperties.GetArrayElementAt(System.Int32,SerializedProperty)">GetArrayElementAt(Int32, SerializedProperty)</h4>
+  <div class="markdown level1 summary"><p>Get Unity Object at index.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string CreateFolder(string path)</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityEngine.Object GetArrayElementAt(int index, SerializedProperty serializedProperty)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -209,9 +171,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">path</span></td>
-        <td><p>Relative path to &quot;**/MyProject/Assets/&quot;, may start with &quot;Assets/&quot;.</p>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of the element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SerializedProperty</span></td>
+        <td><span class="parametername">serializedProperty</span></td>
+        <td><p>SerializedProperty array.</p>
 </td>
       </tr>
     </tbody>
@@ -226,66 +194,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PizzaPie_Editor_Util_Assets_FindAllAssetsOfType_" data-uid="PizzaPie.Editor.Util.Assets.FindAllAssetsOfType*"></a>
-  <h4 id="PizzaPie_Editor_Util_Assets_FindAllAssetsOfType__1" data-uid="PizzaPie.Editor.Util.Assets.FindAllAssetsOfType``1">FindAllAssetsOfType&lt;T&gt;()</h4>
-  <div class="markdown level1 summary"><p>Return all instances of assets of type T, use only if GetAllInstances doesn't work.
-Does not work if type is contained in dll.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;T&gt; FindAllAssetsOfType&lt;T&gt;()
-    where T : ScriptableObject</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
-        <td><p>List of instances of assets.</p>
+        <td><span class="xref">UnityEngine.Object</span></td>
+        <td><p>Element at given index.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="PizzaPie_Editor_Util_Assets_GetAllInstances_" data-uid="PizzaPie.Editor.Util.Assets.GetAllInstances*"></a>
-  <h4 id="PizzaPie_Editor_Util_Assets_GetAllInstances__1_System_String___" data-uid="PizzaPie.Editor.Util.Assets.GetAllInstances``1(System.String[])">GetAllInstances&lt;T&gt;(String[])</h4>
-  <div class="markdown level1 summary"><p>Returns all instances of assets of type T.</p>
+  <a id="PizzaPie_Editor_Util_SerializedProperties_GetElementType_" data-uid="PizzaPie.Editor.Util.SerializedProperties.GetElementType*"></a>
+  <h4 id="PizzaPie_Editor_Util_SerializedProperties_GetElementType_SerializedProperty_" data-uid="PizzaPie.Editor.Util.SerializedProperties.GetElementType(SerializedProperty)">GetElementType(SerializedProperty)</h4>
+  <div class="markdown level1 summary"><p>Get the Type of array's elements.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;T&gt; GetAllInstances&lt;T&gt;(string[] folders = null)
-    where T : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public static Type GetElementType(SerializedProperty serializedProperty)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -298,8 +222,8 @@ Does not work if type is contained in dll.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span>[]</td>
-        <td><span class="parametername">folders</span></td>
+        <td><span class="xref">SerializedProperty</span></td>
+        <td><span class="parametername">serializedProperty</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -314,36 +238,22 @@ Does not work if type is contained in dll.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><span class="xref">Type</span></td>
+        <td><p>Type of elements.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="PizzaPie_Editor_Util_Assets_RemoveSpecialCharacters_" data-uid="PizzaPie.Editor.Util.Assets.RemoveSpecialCharacters*"></a>
-  <h4 id="PizzaPie_Editor_Util_Assets_RemoveSpecialCharacters_System_String_" data-uid="PizzaPie.Editor.Util.Assets.RemoveSpecialCharacters(System.String)">RemoveSpecialCharacters(String)</h4>
-  <div class="markdown level1 summary"><p>Remove all special characters.</p>
+  <a id="PizzaPie_Editor_Util_SerializedProperties_GetElementTypeFromString_" data-uid="PizzaPie.Editor.Util.SerializedProperties.GetElementTypeFromString*"></a>
+  <h4 id="PizzaPie_Editor_Util_SerializedProperties_GetElementTypeFromString_SerializedProperty_" data-uid="PizzaPie.Editor.Util.SerializedProperties.GetElementTypeFromString(SerializedProperty)">GetElementTypeFromString(SerializedProperty)</h4>
+  <div class="markdown level1 summary"><p>Doesn't work... have to account for assembly name and namespace</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string RemoveSpecialCharacters(string str)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Type GetElementTypeFromString(SerializedProperty serializedProperty)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -356,8 +266,8 @@ Does not work if type is contained in dll.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">str</span></td>
+        <td><span class="xref">SerializedProperty</span></td>
+        <td><span class="parametername">serializedProperty</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -372,8 +282,43 @@ Does not work if type is contained in dll.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">Type</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PizzaPie_Editor_Util_SerializedProperties_RemoveArrayItem_" data-uid="PizzaPie.Editor.Util.SerializedProperties.RemoveArrayItem*"></a>
+  <h4 id="PizzaPie_Editor_Util_SerializedProperties_RemoveArrayItem_UnityEngine_Object_SerializedProperty_" data-uid="PizzaPie.Editor.Util.SerializedProperties.RemoveArrayItem(UnityEngine.Object,SerializedProperty)">RemoveArrayItem(UnityEngine.Object, SerializedProperty)</h4>
+  <div class="markdown level1 summary"><p>Remove item from Serialized Property array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveArrayItem(UnityEngine.Object item, SerializedProperty serializedProperty)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Object</span></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>Element to remove.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SerializedProperty</span></td>
+        <td><span class="parametername">serializedProperty</span></td>
+        <td><p>Arrat SerializedProperty.</p>
+</td>
       </tr>
     </tbody>
   </table>
