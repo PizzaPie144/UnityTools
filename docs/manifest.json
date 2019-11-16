@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PizzaPie.Editor.Util.Assets.html",
-          "hash": "1TMFuEJMndXIkyfFYF9TaQ=="
+          "hash": "xYWp3MVtccM0Uy73hHHn9g=="
         }
       },
       "is_incremental": true,
@@ -84,7 +84,7 @@
           "hash": "+2+sMBdI6y+cwmqd65dWfQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "ZRC+LyyIbtUjsOe358Vaiw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PizzaPie.Editor.Views.CellView-1.html",
-          "hash": "P1KFiByIB0wUZQBTCmHh8g=="
+          "hash": "Srj5br0Gkp4Ct8EMoa/+Ug=="
         }
       },
       "is_incremental": true,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PizzaPie.Editor.Views.ListView-1.html",
-          "hash": "DPIhEgCxGoulGOcVbRhRTg=="
+          "hash": "1sEQ0hCIILjvGjJ5CkqtwA=="
         }
       },
       "is_incremental": true,
@@ -256,15 +256,87 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "api/specs/PizzaPie.Editor.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/specs/PizzaPie.Editor.html",
+          "hash": "nO7mRJ/K07KrjmWqLf/vaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/specs/PizzaPie.Runtime.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/specs/PizzaPie.Runtime.html",
+          "hash": "tREBOHHQ7x3YTky3shcrew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "t3gyp3yAMFV6AU5OnJ0lEg=="
+          "hash": "+95+tvdmoDa8Iu+Os0Tjgw=="
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Editor_Example_MultiselectGameObject.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Editor_Example_MultiselectGameObject.html",
+          "hash": "93EBWl4tDczhtwyX2XB5Mw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Editor_Util.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Editor_Util.html",
+          "hash": "mLMe+FPECO1/EK4m9+vOPA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Editor_Views.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Editor_Views.html",
+          "hash": "5reVQTHuQS1oU7WARxbsVw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Runtime_Util.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Runtime_Util.html",
+          "hash": "DjKfyO2U1rpyGbt5WIPK6Q=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -273,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "N8OX+eZUkdSbSgUsF8GHgw=="
+          "hash": "Yvq9kukWDHJiywHW+dPq+g=="
         }
       },
       "is_incremental": true,
@@ -285,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+          "hash": "BFzDGVIzOLMKpwkCAy6YeA=="
         }
       },
       "is_incremental": false,
@@ -297,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "O3sj45rL6ABHWKLzsvn9hA=="
+          "hash": "VrWlhRYRxhtyv683+beVHQ=="
         }
       },
       "is_incremental": true,
@@ -332,17 +404,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 9
+        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 20,
-          "skipped_file_count": 19
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 20
         }
       }
     },
