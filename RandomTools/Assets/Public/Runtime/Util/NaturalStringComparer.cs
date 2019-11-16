@@ -2,6 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 
+/// <summary>
+/// m namespace summury (REMOVE me)
+/// </summary>
 namespace PizzaPie.Runtime.Util
 {
     /// <summary>
@@ -31,7 +34,7 @@ namespace PizzaPie.Runtime.Util
                 char c1 = GetCharAt(index1, x);
                 char c2 = GetCharAt(index2, y);
 
-                if (!Char.IsDigit(c1) && !Char.IsDigit(c2))
+                if (!Char.IsDigit(c1) || !Char.IsDigit(c2))
                 {
                     int r = c1.CompareTo(c2);
                     if (r != 0)
