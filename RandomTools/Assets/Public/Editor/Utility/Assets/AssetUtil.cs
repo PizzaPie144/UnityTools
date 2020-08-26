@@ -177,27 +177,44 @@ namespace PizzaPie.Editor.Util
         /// <param name="createPath">Create the path folders if not present. </param>
         /// <param name="name">Name of the Asset. </param>
         /// <returns>The new instance.</returns>
-        public static T CreateAsset<T>(string path, bool createPath = true, string name = "") where T : ScriptableObject
+        public static T CreateScriptableAsset<T>(string path, bool createPath = true, string name = "") where T : ScriptableObject
         {
-            if (!path.EndsWith("/"))
-                path += '/';
+            return (T)CreateScriptableAsset(typeof(T), path, createPath, name);
+        }
+
+        /// <summary>
+        /// Create Asset of type.
+        /// </summary>
+        /// <param name="path">Path relative to "**/MyProject/Assets/", may start with "Assets/". </param>
+        /// <param name="createPath">Create the path folders if not present. </param>
+        /// <param name="name">Name of the Asset. </param>
+        /// <returns>The new instance.</returns>
+        public static ScriptableObject CreateScriptableAsset(Type type, string path, bool createPath = true, string name = "") 
+        {
+            if (type.IsSubclassOf(typeof(ScriptableObject)))
+                throw new ArgumentException("Invalid type, make sure type inherits from ScriptableObject");
 
             if (!createPath && !AssetDatabase.IsValidFolder(path.Remove(path.Length - 1)))
                 throw new ArgumentException("Invalid path, make sure folder exists or set createPath = true");
-
+            
             if (createPath)
-                CreateFolder(path);
+                path = CreateFolder(path);
+
+            var split = path.Split('/');
+            var absPath = Application.dataPath;
+
+            for (int i = 1; i < split.Length; i++)
+                absPath = string.Concat(absPath, '/', split[i]);
 
             AssetDatabase.Refresh();
 
-            T instance = ScriptableObject.CreateInstance<T>();
+            var instance = ScriptableObject.CreateInstance(type);
 
             if (name.Equals(""))
-                name = typeof(T).Name;
+                name = type.Name;
 
             int count = 0;
-
-            var files = Directory.GetFiles(path);
+            var files = Directory.GetFiles(absPath);
 
             foreach (var file in files)
             {
@@ -216,6 +233,17 @@ namespace PizzaPie.Editor.Util
             return instance;
         }
 
+        public static void CreateScriptableAsset(Type type, string path, out ScriptableObject instance ,bool createPath = true, string name = "")
+        {
+            instance = CreateScriptableAsset(type, path, createPath, name);
+        }
+
+
+        public static void CreateScriptableAsset<T>(string path, out T instance, bool createPath = true, string name = "") where T : ScriptableObject
+        {
+            instance = CreateScriptableAsset<T>(path, createPath, name);
+        }
+
         /// <summary>
         /// Create folder/s based on path if they do not exist.
         /// </summary>
@@ -224,14 +252,17 @@ namespace PizzaPie.Editor.Util
         /// <para>CreateFolder("Assets/newFolder/newFolder") </para></code>
         public static string CreateFolder(string path)
         {
+            if (path.StartsWith("/"))
+                path = path.Remove(0, 1);
+
             string[] sep = path.Split('/');
             string p = "Assets/";
             int i = 0;
 
-            if (path.StartsWith("Assets/"))
+            if (path.StartsWith("Assets/") )
                 i = 1;
 
-            string lastValidPath = "";
+            string lastValidPath = p;
 
             for (; i < sep.Length; i++)
             {
@@ -240,10 +271,7 @@ namespace PizzaPie.Editor.Util
 
                 p = String.Concat(p, sep[i]);
                 if (!AssetDatabase.IsValidFolder(p))
-                {
                     AssetDatabase.CreateFolder(lastValidPath, sep[i]);
-                    lastValidPath = lastValidPath + '/' + sep[i];
-                }
 
                 lastValidPath = p;
                 p = String.Concat(p, '/');
