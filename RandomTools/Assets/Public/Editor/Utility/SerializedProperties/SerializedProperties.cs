@@ -48,7 +48,7 @@ namespace PizzaPie.Editor.Util
 
             Type elementType = GetElementType(serializedProperty);
 
-            if (elementType != item.GetType() && item.GetType().IsSubclassOf(elementType))
+            if (item != null && elementType != item.GetType() && item.GetType().IsSubclassOf(elementType))
                 throw new ArgumentException("Trying to add invalid item type, make sure the item's type match array's elements type or inherits from it.");
 
             for (int i = 0; i < serializedProperty.arraySize; i++)
@@ -74,7 +74,7 @@ namespace PizzaPie.Editor.Util
 
             Type elementType = GetElementType(serializedProperty);
 
-            if (elementType != item.GetType() && item.GetType().IsSubclassOf(elementType))
+            if (item != null && elementType != item.GetType() && item.GetType().IsSubclassOf(elementType))
                 throw new ArgumentException("Trying to remove invalid item type, make sure the item's type match array's elements type or inherits from it.");
 
             for (int i = 0; i < serializedProperty.arraySize; i++)
