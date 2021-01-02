@@ -256,7 +256,7 @@ namespace PizzaPie.Editor.Util
                 path = path.Remove(0, 1);
 
             string[] sep = path.Split('/');
-            string p = "Assets/";
+            string p = "Assets";
             int i = 0;
 
             if (path.StartsWith("Assets/") )
