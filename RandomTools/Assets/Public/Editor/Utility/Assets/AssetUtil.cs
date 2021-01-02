@@ -191,7 +191,7 @@ namespace PizzaPie.Editor.Util
         /// <returns>The new instance.</returns>
         public static ScriptableObject CreateScriptableAsset(Type type, string path, bool createPath = true, string name = "") 
         {
-            if (type.IsSubclassOf(typeof(ScriptableObject)))
+            if (!type.IsSubclassOf(typeof(ScriptableObject)))
                 throw new ArgumentException("Invalid type, make sure type inherits from ScriptableObject");
 
             if (!createPath && !AssetDatabase.IsValidFolder(path.Remove(path.Length - 1)))
@@ -199,12 +199,10 @@ namespace PizzaPie.Editor.Util
             
             if (createPath)
                 path = CreateFolder(path);
-
-            var split = path.Split('/');
+            
             var absPath = Application.dataPath;
-
-            for (int i = 1; i < split.Length; i++)
-                absPath = string.Concat(absPath, '/', split[i]);
+            
+            absPath = string.Concat(absPath, '/', path);
 
             AssetDatabase.Refresh();
 
@@ -213,19 +211,23 @@ namespace PizzaPie.Editor.Util
             if (name.Equals(""))
                 name = type.Name;
 
-            int count = 0;
-            var files = Directory.GetFiles(absPath);
-
-            foreach (var file in files)
+            if (Directory.Exists(absPath))
             {
-                string f = file.Replace(path, "");
-                if (f.Contains(name) && f.Contains(".asset") && !f.Contains(".meta"))
-                    count++;
+                int count = 0;
+                var files = Directory.GetFiles(absPath);
+
+                foreach (var file in files)
+                {
+                    string f = file.Replace(path, "");
+                    if (f.Contains(name) && f.Contains(".asset") && !f.Contains(".meta"))
+                        count++;
+                }
+
+                if (count != 0)
+                    name += " " + count.ToString();
             }
-
-            if (count != 0)
-                name += " " + count.ToString();
-
+            
+            if (!path.EndsWith("/")) path = string.Concat(path, '/');
             AssetDatabase.CreateAsset(instance, path + name + ".asset");
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
