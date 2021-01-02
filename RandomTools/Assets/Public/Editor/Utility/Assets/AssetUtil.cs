@@ -269,12 +269,12 @@ namespace PizzaPie.Editor.Util
                 if (i == sep.Length - 1 && sep[i].Equals(""))
                     continue;
 
-                p = String.Concat(p, sep[i]);
+                p = String.Concat(p, '/', sep[i]);
                 if (!AssetDatabase.IsValidFolder(p))
                     AssetDatabase.CreateFolder(lastValidPath, sep[i]);
 
                 lastValidPath = p;
-                p = String.Concat(p, '/');
+                
             }
 
             return p;
